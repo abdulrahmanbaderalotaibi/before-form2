@@ -33,23 +33,24 @@
             label2 = new Label();
             label1 = new Label();
             pictureBox1 = new PictureBox();
-            panel2 = new Panel();
-            button2 = new Button();
-            label3 = new Label();
-            panel4 = new Panel();
-            textBox2 = new TextBox();
-            pictureBox3 = new PictureBox();
-            panel3 = new Panel();
-            textBox1 = new TextBox();
-            pictureBox2 = new PictureBox();
             button1 = new Button();
+            panel3 = new Panel();
+            textUserName = new TextBox();
+            pictureBox2 = new PictureBox();
+            panel4 = new Panel();
+            textpassowrd = new TextBox();
+            pictureBox3 = new PictureBox();
+            label3 = new Label();
+            Login = new Button();
+            button3 = new Button();
+            panel2 = new Panel();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            panel2.SuspendLayout();
-            panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            panel2.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -101,31 +102,82 @@
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
             // 
-            // panel2
+            // button1
             // 
-            panel2.BackColor = Color.LightGray;
-            panel2.Controls.Add(button2);
-            panel2.Controls.Add(label3);
-            panel2.Controls.Add(panel4);
-            panel2.Controls.Add(panel3);
-            panel2.Controls.Add(button1);
-            panel2.Dock = DockStyle.Fill;
-            panel2.Location = new Point(300, 0);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(450, 530);
-            panel2.TabIndex = 1;
-            panel2.Paint += panel2_Paint;
+            button1.Cursor = Cursors.Hand;
+            button1.FlatAppearance.BorderSize = 0;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Verdana", 13F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button1.Location = new Point(410, 0);
+            button1.Name = "button1";
+            button1.Size = new Size(40, 40);
+            button1.TabIndex = 0;
+            button1.Text = "X";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
-            // button2
+            // panel3
             // 
-            button2.BackColor = Color.Linen;
-            button2.Font = new Font("Century Gothic", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button2.Location = new Point(28, 325);
-            button2.Name = "button2";
-            button2.Size = new Size(125, 44);
-            button2.TabIndex = 4;
-            button2.Text = "Login";
-            button2.UseVisualStyleBackColor = false;
+            panel3.BackColor = SystemColors.ButtonFace;
+            panel3.Controls.Add(textUserName);
+            panel3.Controls.Add(pictureBox2);
+            panel3.Location = new Point(0, 159);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(453, 45);
+            panel3.TabIndex = 1;
+            panel3.Paint += panel3_Paint;
+            // 
+            // textUserName
+            // 
+            textUserName.BackColor = SystemColors.Control;
+            textUserName.BorderStyle = BorderStyle.None;
+            textUserName.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textUserName.Location = new Point(72, 9);
+            textUserName.Name = "textUserName";
+            textUserName.Size = new Size(363, 25);
+            textUserName.TabIndex = 4;
+            textUserName.Click += textBox1_Click;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(-3, 0);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(69, 55);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 3;
+            pictureBox2.TabStop = false;
+            // 
+            // panel4
+            // 
+            panel4.BackColor = SystemColors.ButtonFace;
+            panel4.Controls.Add(textpassowrd);
+            panel4.Controls.Add(pictureBox3);
+            panel4.Location = new Point(0, 225);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(453, 45);
+            panel4.TabIndex = 2;
+            // 
+            // textpassowrd
+            // 
+            textpassowrd.BorderStyle = BorderStyle.None;
+            textpassowrd.Font = new Font("Century Gothic", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textpassowrd.Location = new Point(72, 9);
+            textpassowrd.Name = "textpassowrd";
+            textpassowrd.Size = new Size(363, 21);
+            textpassowrd.TabIndex = 5;
+            textpassowrd.UseSystemPasswordChar = true;
+            textpassowrd.TextChanged += textBox2_TextChanged;
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
+            pictureBox3.Location = new Point(3, 3);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(60, 39);
+            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox3.TabIndex = 4;
+            pictureBox3.TabStop = false;
             // 
             // label3
             // 
@@ -140,78 +192,46 @@
             label3.Text = "Login to your account";
             label3.Click += label3_Click;
             // 
-            // panel4
+            // Login
             // 
-            panel4.BackColor = Color.White;
-            panel4.Controls.Add(textBox2);
-            panel4.Controls.Add(pictureBox3);
-            panel4.Location = new Point(0, 225);
-            panel4.Name = "panel4";
-            panel4.Size = new Size(453, 45);
-            panel4.TabIndex = 2;
+            Login.BackColor = Color.Linen;
+            Login.Font = new Font("Century Gothic", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Login.Location = new Point(6, 310);
+            Login.Name = "Login";
+            Login.Size = new Size(125, 44);
+            Login.TabIndex = 4;
+            Login.Text = "Login";
+            Login.UseVisualStyleBackColor = false;
+            Login.Click += button2_Click;
             // 
-            // textBox2
+            // button3
             // 
-            textBox2.Font = new Font("Century Gothic", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox2.Location = new Point(72, 9);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(363, 28);
-            textBox2.TabIndex = 5;
-            textBox2.UseSystemPasswordChar = true;
-            textBox2.TextChanged += textBox2_TextChanged;
+            button3.BackColor = Color.Linen;
+            button3.Font = new Font("Century Gothic", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button3.Location = new Point(179, 310);
+            button3.Name = "button3";
+            button3.Size = new Size(174, 44);
+            button3.TabIndex = 5;
+            button3.Text = "Forget passowrd";
+            button3.UseVisualStyleBackColor = false;
             // 
-            // pictureBox3
+            // panel2
             // 
-            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(3, 3);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(60, 39);
-            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox3.TabIndex = 4;
-            pictureBox3.TabStop = false;
-            // 
-            // panel3
-            // 
-            panel3.BackColor = Color.White;
-            panel3.Controls.Add(textBox1);
-            panel3.Controls.Add(pictureBox2);
-            panel3.Location = new Point(0, 159);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(453, 45);
-            panel3.TabIndex = 1;
-            panel3.Paint += panel3_Paint;
-            // 
-            // textBox1
-            // 
-            textBox1.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox1.Location = new Point(72, 9);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(363, 32);
-            textBox1.TabIndex = 4;
-            // 
-            // pictureBox2
-            // 
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(-3, 0);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(69, 55);
-            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox2.TabIndex = 3;
-            pictureBox2.TabStop = false;
-            // 
-            // button1
-            // 
-            button1.Cursor = Cursors.Hand;
-            button1.FlatAppearance.BorderSize = 0;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Verdana", 13F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.Location = new Point(410, 0);
-            button1.Name = "button1";
-            button1.Size = new Size(40, 40);
-            button1.TabIndex = 0;
-            button1.Text = "X";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            panel2.BackColor = Color.LightGray;
+            panel2.Controls.Add(button3);
+            panel2.Controls.Add(Login);
+            panel2.Controls.Add(label3);
+            panel2.Controls.Add(panel4);
+            panel2.Controls.Add(panel3);
+            panel2.Controls.Add(button1);
+            panel2.Dock = DockStyle.Fill;
+            panel2.Location = new Point(300, 0);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(450, 530);
+            panel2.TabIndex = 1;
+            panel2.Click += panel2_Click;
+            panel2.Paint += panel2_Paint;
+            panel2.DoubleClick += panel2_DoubleClick;
             // 
             // Form1
             // 
@@ -228,32 +248,33 @@
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            panel2.ResumeLayout(false);
-            panel2.PerformLayout();
-            panel4.ResumeLayout(false);
-            panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            panel4.ResumeLayout(false);
+            panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
             ResumeLayout(false);
         }
 
         #endregion
 
         private Panel panel1;
-        private Panel panel2;
         private PictureBox pictureBox1;
         private Label label1;
         private Label label2;
         private Button button1;
         private Panel panel3;
-        private Panel panel4;
-        private Label label3;
-        private PictureBox pictureBox3;
+        private TextBox textUserName;
         private PictureBox pictureBox2;
-        private TextBox textBox2;
-        private TextBox textBox1;
-        private Button button2;
+        private Panel panel4;
+        private TextBox textpassowrd;
+        private PictureBox pictureBox3;
+        private Label label3;
+        private Button Login;
+        private Button button3;
+        private Panel panel2;
     }
 }

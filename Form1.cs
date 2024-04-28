@@ -46,5 +46,39 @@ namespace Without_Coach
         {
 
         }
+
+        private void textBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            String readtext = File.ReadAllText("User.txt");
+
+            string[] split = readtext.Split("@");
+
+            String User= split[0];
+            String Passowrd = split[1];
+            if (textUserName.Text == User && textpassowrd.Text == Passowrd)
+            {
+                Form Form2 = new Form2();
+                this.Hide();
+                Form2.Show();
+            }
+            else
+                MessageBox.Show("The user name and passowrd incorect", "Error", MessageBoxButtons.OK,MessageBoxIcon.Error);
+
+        }
+
+        private void panel2_DoubleClick(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
