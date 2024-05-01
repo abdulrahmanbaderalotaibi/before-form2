@@ -54,7 +54,7 @@ namespace Without_Coach
 
         private void button2_Click(object sender, EventArgs e)
         {
-            String readtext = File.ReadAllText("User.txt");
+            String readtext = File.ReadAllText("user.txt");
 
             string[] split = readtext.Split("@");
 

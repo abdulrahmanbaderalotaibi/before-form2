@@ -12,9 +12,33 @@ namespace Without_Coach
 {
     public partial class Form2 : Form
     {
+        public object Aplecation { get; private set; }
+
         public Form2()
         {
             InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form Form3 = new Form3();
+            this.Hide();
+            Form3.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
