@@ -39,7 +39,6 @@
             label4 = new Label();
             label5 = new Label();
             pictureBox1 = new PictureBox();
-            button2 = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -56,6 +55,7 @@
             comboBox1.TabIndex = 1;
             comboBox1.Text = "Days";
             comboBox1.UseWaitCursor = true;
+            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
             // label1
             // 
@@ -87,9 +87,9 @@
             label3.Font = new Font("Segoe UI", 12F);
             label3.Location = new Point(338, 247);
             label3.Name = "label3";
-            label3.Size = new Size(214, 28);
+            label3.Size = new Size(218, 28);
             label3.TabIndex = 4;
-            label3.Text = "Where do you workout";
+            label3.Text = "Where do you workout:";
             label3.UseWaitCursor = true;
             label3.Click += label3_Click;
             // 
@@ -119,6 +119,7 @@
             // 
             // button1
             // 
+            button1.Anchor = AnchorStyles.Bottom;
             button1.Cursor = Cursors.Hand;
             button1.Location = new Point(581, 402);
             button1.Name = "button1";
@@ -128,6 +129,7 @@
             button1.UseVisualStyleBackColor = true;
             button1.UseWaitCursor = true;
             button1.Click += button1_Click;
+            button1.KeyDown += button1_KeyDown;
             // 
             // panel1
             // 
@@ -180,30 +182,15 @@
             pictureBox1.TabStop = false;
             pictureBox1.UseWaitCursor = true;
             // 
-            // button2
-            // 
-            button2.Cursor = Cursors.Hand;
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Font = new Font("Verdana", 13F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button2.Location = new Point(827, 0);
-            button2.Name = "button2";
-            button2.Size = new Size(40, 40);
-            button2.TabIndex = 9;
-            button2.Text = "X";
-            button2.UseVisualStyleBackColor = true;
-            button2.UseWaitCursor = true;
-            button2.Click += button2_Click;
-            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoSize = true;
+            AutoSizeMode = AutoSizeMode.GrowAndShrink;
             BackColor = Color.LightGray;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(866, 496);
-            Controls.Add(button2);
             Controls.Add(panel1);
             Controls.Add(button1);
             Controls.Add(comboBox3);
@@ -212,8 +199,9 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(comboBox1);
-            FormBorderStyle = FormBorderStyle.None;
+            FormBorderStyle = FormBorderStyle.FixedDialog;
             HelpButton = true;
+            MaximizeBox = false;
             Name = "Form2";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Costumer deseirs";
@@ -237,6 +225,5 @@
         private Label label4;
         private Label label5;
         private PictureBox pictureBox1;
-        private Button button2;
     }
 }

@@ -58,7 +58,7 @@ namespace Without_Coach
 
             string[] split = readtext.Split("@");
 
-            String User= split[0];
+            String User = split[0];
             String Passowrd = split[1];
             if (textUserName.Text == User && textpassowrd.Text == Passowrd)
             {
@@ -67,7 +67,7 @@ namespace Without_Coach
                 Form2.Show();
             }
             else
-                MessageBox.Show("The user name and passowrd incorect", "Error", MessageBoxButtons.OK,MessageBoxIcon.Error);
+                MessageBox.Show("The user name and passowrd incorect", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
         }
 
@@ -79,6 +79,22 @@ namespace Without_Coach
         private void panel2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void textUserName_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                textpassowrd.Focus();
+            }
+        }
+
+        private void textpassowrd_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                Login.Focus();
+            }
         }
     }
 }

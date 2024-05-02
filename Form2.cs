@@ -12,7 +12,7 @@ namespace Without_Coach
 {
     public partial class Form2 : Form
     {
-        public object Aplecation { get; private set; }
+        public object Aplication { get; private set; }
 
         public Form2()
         {
@@ -39,6 +39,25 @@ namespace Without_Coach
         private void button2_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+        }
+
+        private void button1_KeyDown(object sender, KeyEventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

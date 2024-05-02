@@ -137,6 +137,7 @@
             textUserName.Size = new Size(363, 25);
             textUserName.TabIndex = 4;
             textUserName.Click += textBox1_Click;
+            textUserName.KeyDown += textUserName_KeyDown;
             // 
             // pictureBox2
             // 
@@ -168,6 +169,7 @@
             textpassowrd.TabIndex = 5;
             textpassowrd.UseSystemPasswordChar = true;
             textpassowrd.TextChanged += textBox2_TextChanged;
+            textpassowrd.KeyDown += textpassowrd_KeyDown;
             // 
             // pictureBox3
             // 
