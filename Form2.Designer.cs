@@ -54,8 +54,8 @@
             comboBox1.Size = new Size(151, 28);
             comboBox1.TabIndex = 1;
             comboBox1.Text = "Days";
-            comboBox1.UseWaitCursor = true;
             comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
+            comboBox1.KeyDown += comboBox1_KeyDown;
             // 
             // label1
             // 
@@ -66,7 +66,6 @@
             label1.Size = new Size(192, 28);
             label1.TabIndex = 2;
             label1.Text = "Days of the workout:";
-            label1.UseWaitCursor = true;
             label1.Click += label1_Click;
             // 
             // label2
@@ -78,7 +77,6 @@
             label2.Size = new Size(194, 28);
             label2.TabIndex = 3;
             label2.Text = "Level of the workout:";
-            label2.UseWaitCursor = true;
             // 
             // label3
             // 
@@ -90,7 +88,6 @@
             label3.Size = new Size(218, 28);
             label3.TabIndex = 4;
             label3.Text = "Where do you workout:";
-            label3.UseWaitCursor = true;
             label3.Click += label3_Click;
             // 
             // comboBox2
@@ -103,7 +100,7 @@
             comboBox2.Size = new Size(151, 28);
             comboBox2.TabIndex = 5;
             comboBox2.Text = "Level";
-            comboBox2.UseWaitCursor = true;
+            comboBox2.KeyDown += comboBox2_KeyDown;
             // 
             // comboBox3
             // 
@@ -115,7 +112,8 @@
             comboBox3.Size = new Size(151, 28);
             comboBox3.TabIndex = 6;
             comboBox3.Text = "place";
-            comboBox3.UseWaitCursor = true;
+            comboBox3.KeyDown += comboBox3_KeyDown;
+            comboBox3.MouseDown += comboBox3_MouseDown;
             // 
             // button1
             // 
@@ -127,7 +125,6 @@
             button1.TabIndex = 7;
             button1.Text = "Next -->";
             button1.UseVisualStyleBackColor = true;
-            button1.UseWaitCursor = true;
             button1.Click += button1_Click;
             button1.KeyDown += button1_KeyDown;
             // 
@@ -143,7 +140,6 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(332, 496);
             panel1.TabIndex = 8;
-            panel1.UseWaitCursor = true;
             // 
             // label4
             // 
@@ -156,7 +152,6 @@
             label4.Size = new Size(172, 41);
             label4.TabIndex = 2;
             label4.Text = "Your desires";
-            label4.UseWaitCursor = true;
             // 
             // label5
             // 
@@ -169,7 +164,6 @@
             label5.Size = new Size(201, 41);
             label5.TabIndex = 1;
             label5.Text = "Please chooce";
-            label5.UseWaitCursor = true;
             // 
             // pictureBox1
             // 
@@ -180,7 +174,6 @@
             pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
-            pictureBox1.UseWaitCursor = true;
             // 
             // Form2
             // 
@@ -205,7 +198,6 @@
             Name = "Form2";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Costumer deseirs";
-            UseWaitCursor = true;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

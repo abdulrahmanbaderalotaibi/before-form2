@@ -13,7 +13,6 @@ namespace Without_Coach
 {
     public partial class Form2 : Form
     {
-        public object Aplication { get; private set; }
 
         public Form2()
         {
@@ -32,7 +31,7 @@ namespace Without_Coach
 
         private void button1_Click(object sender, EventArgs e)
         {
-           
+
             Form Form3 = new Form3();
             this.Hide();
             Form3.Show();
@@ -54,15 +53,41 @@ namespace Without_Coach
 
         private void button1_KeyDown(object sender, KeyEventArgs e)
         {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox3_MouseDown(object sender, MouseEventArgs e)
+        {
+
+        }
+
+        private void comboBox3_KeyDown(object sender, KeyEventArgs e)
+        {
             if (e.KeyCode == Keys.Enter)
             {
                 button1.Focus();
             }
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void comboBox1_KeyDown(object sender, KeyEventArgs e)
         {
+            if (e.KeyCode == Keys.Enter)
+            {
+                comboBox2.Focus();
+            }
+        }
 
+        private void comboBox2_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                comboBox3.Focus();
+            }
         }
     }
 }
