@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.VisualBasic.Logging;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -31,6 +32,7 @@ namespace Without_Coach
 
         private void button1_Click(object sender, EventArgs e)
         {
+           
             Form Form3 = new Form3();
             this.Hide();
             Form3.Show();
@@ -52,7 +54,10 @@ namespace Without_Coach
 
         private void button1_KeyDown(object sender, KeyEventArgs e)
         {
-
+            if (e.KeyCode == Keys.Enter)
+            {
+                button1.Focus();
+            }
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
