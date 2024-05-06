@@ -1,7 +1,6 @@
-﻿
-namespace Without_Coach
+﻿namespace Without_Coach
 {
-    partial class Form3
+    partial class Tables_6_dayscs
     {
         /// <summary>
         /// Required designer variable.
@@ -29,15 +28,34 @@ namespace Without_Coach
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Tables_6_dayscs));
             panel1 = new Panel();
             label5 = new Label();
             label6 = new Label();
             pictureBox1 = new PictureBox();
-            pictureBox2 = new PictureBox();
-            panel2 = new Panel();
             panel3 = new Panel();
+            textBox13 = new TextBox();
+            textBox14 = new TextBox();
+            textBox15 = new TextBox();
+            textBox16 = new TextBox();
+            textBox17 = new TextBox();
+            textBox18 = new TextBox();
+            textBox19 = new TextBox();
+            textBox20 = new TextBox();
+            textBox21 = new TextBox();
+            textBox22 = new TextBox();
+            textBox23 = new TextBox();
+            textBox24 = new TextBox();
+            textBox12 = new TextBox();
+            textBox11 = new TextBox();
+            textBox10 = new TextBox();
+            textBox9 = new TextBox();
+            textBox8 = new TextBox();
+            textBox7 = new TextBox();
+            textBox6 = new TextBox();
+            textBox5 = new TextBox();
+            textBox4 = new TextBox();
+            textBox3 = new TextBox();
             textBox2 = new TextBox();
             textBox1 = new TextBox();
             label23 = new Label();
@@ -65,40 +83,8 @@ namespace Without_Coach
             comboBox9 = new ComboBox();
             comboBox14 = new ComboBox();
             pictureBox3 = new PictureBox();
-            comboBox1 = new ComboBox();
-            comboBox2 = new ComboBox();
-            comboBox3 = new ComboBox();
-            comboBox13 = new ComboBox();
-            comboBox12 = new ComboBox();
-            comboBox11 = new ComboBox();
-            comboBox10 = new ComboBox();
-            contextMenuStrip1 = new ContextMenuStrip(components);
-            textBox3 = new TextBox();
-            textBox4 = new TextBox();
-            textBox5 = new TextBox();
-            textBox6 = new TextBox();
-            textBox7 = new TextBox();
-            textBox8 = new TextBox();
-            textBox9 = new TextBox();
-            textBox10 = new TextBox();
-            textBox11 = new TextBox();
-            textBox12 = new TextBox();
-            textBox13 = new TextBox();
-            textBox14 = new TextBox();
-            textBox15 = new TextBox();
-            textBox16 = new TextBox();
-            textBox17 = new TextBox();
-            textBox18 = new TextBox();
-            textBox19 = new TextBox();
-            textBox20 = new TextBox();
-            textBox21 = new TextBox();
-            textBox22 = new TextBox();
-            textBox23 = new TextBox();
-            textBox24 = new TextBox();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            panel2.SuspendLayout();
             panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             SuspendLayout();
@@ -113,8 +99,8 @@ namespace Without_Coach
             panel1.ForeColor = SystemColors.ControlText;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(339, 838);
-            panel1.TabIndex = 9;
+            panel1.Size = new Size(339, 848);
+            panel1.TabIndex = 10;
             // 
             // label5
             // 
@@ -127,7 +113,6 @@ namespace Without_Coach
             label5.Size = new Size(331, 32);
             label5.TabIndex = 1;
             label5.Text = "\"A journey of a thousand miles";
-            label5.Click += label5_Click;
             // 
             // label6
             // 
@@ -150,35 +135,6 @@ namespace Without_Coach
             pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(51, 651);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(811, 506);
-            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox2.TabIndex = 0;
-            pictureBox2.TabStop = false;
-            // 
-            // panel2
-            // 
-            panel2.BackColor = Color.LightGray;
-            panel2.BackgroundImageLayout = ImageLayout.Stretch;
-            panel2.Controls.Add(panel3);
-            panel2.Controls.Add(comboBox1);
-            panel2.Controls.Add(comboBox2);
-            panel2.Controls.Add(comboBox3);
-            panel2.Controls.Add(comboBox13);
-            panel2.Controls.Add(comboBox12);
-            panel2.Controls.Add(comboBox11);
-            panel2.Controls.Add(comboBox10);
-            panel2.Controls.Add(pictureBox2);
-            panel2.Dock = DockStyle.Fill;
-            panel2.Location = new Point(339, 0);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(950, 838);
-            panel2.TabIndex = 10;
             // 
             // panel3
             // 
@@ -234,10 +190,208 @@ namespace Without_Coach
             panel3.Controls.Add(comboBox14);
             panel3.Controls.Add(pictureBox3);
             panel3.Dock = DockStyle.Fill;
-            panel3.Location = new Point(0, 0);
+            panel3.Location = new Point(339, 0);
             panel3.Name = "panel3";
-            panel3.Size = new Size(950, 838);
-            panel3.TabIndex = 17;
+            panel3.Size = new Size(978, 848);
+            panel3.TabIndex = 18;
+            // 
+            // textBox13
+            // 
+            textBox13.BackColor = Color.LightGray;
+            textBox13.Font = new Font("Segoe UI", 11F);
+            textBox13.Location = new Point(539, 467);
+            textBox13.Name = "textBox13";
+            textBox13.Size = new Size(95, 32);
+            textBox13.TabIndex = 58;
+            // 
+            // textBox14
+            // 
+            textBox14.BackColor = Color.LightGray;
+            textBox14.Font = new Font("Segoe UI", 11F);
+            textBox14.Location = new Point(539, 431);
+            textBox14.Name = "textBox14";
+            textBox14.Size = new Size(95, 32);
+            textBox14.TabIndex = 57;
+            // 
+            // textBox15
+            // 
+            textBox15.BackColor = Color.LightGray;
+            textBox15.Font = new Font("Segoe UI", 11F);
+            textBox15.Location = new Point(539, 395);
+            textBox15.Name = "textBox15";
+            textBox15.Size = new Size(95, 32);
+            textBox15.TabIndex = 56;
+            // 
+            // textBox16
+            // 
+            textBox16.BackColor = Color.LightGray;
+            textBox16.Font = new Font("Segoe UI", 11F);
+            textBox16.Location = new Point(539, 358);
+            textBox16.Name = "textBox16";
+            textBox16.Size = new Size(95, 32);
+            textBox16.TabIndex = 55;
+            // 
+            // textBox17
+            // 
+            textBox17.BackColor = Color.LightGray;
+            textBox17.Font = new Font("Segoe UI", 11F);
+            textBox17.Location = new Point(539, 323);
+            textBox17.Name = "textBox17";
+            textBox17.Size = new Size(95, 32);
+            textBox17.TabIndex = 54;
+            // 
+            // textBox18
+            // 
+            textBox18.BackColor = Color.LightGray;
+            textBox18.Font = new Font("Segoe UI", 11F);
+            textBox18.Location = new Point(539, 288);
+            textBox18.Name = "textBox18";
+            textBox18.Size = new Size(95, 32);
+            textBox18.TabIndex = 53;
+            // 
+            // textBox19
+            // 
+            textBox19.BackColor = Color.LightGray;
+            textBox19.Font = new Font("Segoe UI", 11F);
+            textBox19.Location = new Point(539, 250);
+            textBox19.Name = "textBox19";
+            textBox19.Size = new Size(95, 32);
+            textBox19.TabIndex = 52;
+            // 
+            // textBox20
+            // 
+            textBox20.BackColor = Color.LightGray;
+            textBox20.Font = new Font("Segoe UI", 11F);
+            textBox20.Location = new Point(539, 213);
+            textBox20.Name = "textBox20";
+            textBox20.Size = new Size(95, 32);
+            textBox20.TabIndex = 51;
+            // 
+            // textBox21
+            // 
+            textBox21.BackColor = Color.LightGray;
+            textBox21.Font = new Font("Segoe UI", 11F);
+            textBox21.Location = new Point(539, 179);
+            textBox21.Name = "textBox21";
+            textBox21.Size = new Size(95, 32);
+            textBox21.TabIndex = 50;
+            // 
+            // textBox22
+            // 
+            textBox22.BackColor = Color.LightGray;
+            textBox22.Font = new Font("Segoe UI", 11F);
+            textBox22.Location = new Point(539, 141);
+            textBox22.Name = "textBox22";
+            textBox22.Size = new Size(95, 32);
+            textBox22.TabIndex = 49;
+            // 
+            // textBox23
+            // 
+            textBox23.BackColor = Color.LightGray;
+            textBox23.Font = new Font("Segoe UI", 11F);
+            textBox23.Location = new Point(539, 106);
+            textBox23.Name = "textBox23";
+            textBox23.Size = new Size(95, 32);
+            textBox23.TabIndex = 48;
+            // 
+            // textBox24
+            // 
+            textBox24.BackColor = Color.LightGray;
+            textBox24.Font = new Font("Segoe UI", 11F);
+            textBox24.Location = new Point(539, 68);
+            textBox24.Name = "textBox24";
+            textBox24.Size = new Size(95, 32);
+            textBox24.TabIndex = 47;
+            // 
+            // textBox12
+            // 
+            textBox12.BackColor = Color.LightGray;
+            textBox12.Font = new Font("Segoe UI", 11F);
+            textBox12.Location = new Point(399, 468);
+            textBox12.Name = "textBox12";
+            textBox12.Size = new Size(134, 32);
+            textBox12.TabIndex = 46;
+            // 
+            // textBox11
+            // 
+            textBox11.BackColor = Color.LightGray;
+            textBox11.Font = new Font("Segoe UI", 11F);
+            textBox11.Location = new Point(399, 432);
+            textBox11.Name = "textBox11";
+            textBox11.Size = new Size(134, 32);
+            textBox11.TabIndex = 45;
+            // 
+            // textBox10
+            // 
+            textBox10.BackColor = Color.LightGray;
+            textBox10.Font = new Font("Segoe UI", 11F);
+            textBox10.Location = new Point(399, 396);
+            textBox10.Name = "textBox10";
+            textBox10.Size = new Size(134, 32);
+            textBox10.TabIndex = 44;
+            // 
+            // textBox9
+            // 
+            textBox9.BackColor = Color.LightGray;
+            textBox9.Font = new Font("Segoe UI", 11F);
+            textBox9.Location = new Point(399, 359);
+            textBox9.Name = "textBox9";
+            textBox9.Size = new Size(134, 32);
+            textBox9.TabIndex = 43;
+            // 
+            // textBox8
+            // 
+            textBox8.BackColor = Color.LightGray;
+            textBox8.Font = new Font("Segoe UI", 11F);
+            textBox8.Location = new Point(399, 324);
+            textBox8.Name = "textBox8";
+            textBox8.Size = new Size(134, 32);
+            textBox8.TabIndex = 42;
+            // 
+            // textBox7
+            // 
+            textBox7.BackColor = Color.LightGray;
+            textBox7.Font = new Font("Segoe UI", 11F);
+            textBox7.Location = new Point(399, 289);
+            textBox7.Name = "textBox7";
+            textBox7.Size = new Size(134, 32);
+            textBox7.TabIndex = 41;
+            // 
+            // textBox6
+            // 
+            textBox6.BackColor = Color.LightGray;
+            textBox6.Font = new Font("Segoe UI", 11F);
+            textBox6.Location = new Point(399, 251);
+            textBox6.Name = "textBox6";
+            textBox6.Size = new Size(134, 32);
+            textBox6.TabIndex = 40;
+            // 
+            // textBox5
+            // 
+            textBox5.BackColor = Color.LightGray;
+            textBox5.Font = new Font("Segoe UI", 11F);
+            textBox5.Location = new Point(399, 214);
+            textBox5.Name = "textBox5";
+            textBox5.Size = new Size(134, 32);
+            textBox5.TabIndex = 39;
+            // 
+            // textBox4
+            // 
+            textBox4.BackColor = Color.LightGray;
+            textBox4.Font = new Font("Segoe UI", 11F);
+            textBox4.Location = new Point(399, 180);
+            textBox4.Name = "textBox4";
+            textBox4.Size = new Size(134, 32);
+            textBox4.TabIndex = 38;
+            // 
+            // textBox3
+            // 
+            textBox3.BackColor = Color.LightGray;
+            textBox3.Font = new Font("Segoe UI", 11F);
+            textBox3.Location = new Point(399, 142);
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(134, 32);
+            textBox3.TabIndex = 37;
             // 
             // textBox2
             // 
@@ -579,385 +733,31 @@ namespace Without_Coach
             pictureBox3.TabIndex = 0;
             pictureBox3.TabStop = false;
             // 
-            // comboBox1
-            // 
-            comboBox1.BackColor = Color.LightGray;
-            comboBox1.Cursor = Cursors.Hand;
-            comboBox1.FlatStyle = FlatStyle.System;
-            comboBox1.Font = new Font("Segoe UI", 14F);
-            comboBox1.ForeColor = Color.Black;
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "tgag", "ajjja", "kajjaj" });
-            comboBox1.Location = new Point(268, 420);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(179, 39);
-            comboBox1.TabIndex = 16;
-            // 
-            // comboBox2
-            // 
-            comboBox2.BackColor = Color.LightGray;
-            comboBox2.Cursor = Cursors.Hand;
-            comboBox2.FlatStyle = FlatStyle.System;
-            comboBox2.Font = new Font("Segoe UI", 12F);
-            comboBox2.ForeColor = Color.Black;
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Items.AddRange(new object[] { "tgag", "ajjja", "kajjaj" });
-            comboBox2.Location = new Point(268, 384);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(179, 36);
-            comboBox2.TabIndex = 15;
-            // 
-            // comboBox3
-            // 
-            comboBox3.BackColor = Color.LightGray;
-            comboBox3.Cursor = Cursors.Hand;
-            comboBox3.FlatStyle = FlatStyle.System;
-            comboBox3.Font = new Font("Segoe UI", 12F);
-            comboBox3.ForeColor = Color.Black;
-            comboBox3.FormattingEnabled = true;
-            comboBox3.Items.AddRange(new object[] { "tgag", "ajjja", "kajjaj" });
-            comboBox3.Location = new Point(268, 348);
-            comboBox3.Name = "comboBox3";
-            comboBox3.Size = new Size(179, 36);
-            comboBox3.TabIndex = 14;
-            // 
-            // comboBox13
-            // 
-            comboBox13.BackColor = Color.LightGray;
-            comboBox13.Cursor = Cursors.Hand;
-            comboBox13.FlatStyle = FlatStyle.System;
-            comboBox13.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 178);
-            comboBox13.ForeColor = Color.Black;
-            comboBox13.FormattingEnabled = true;
-            comboBox13.Items.AddRange(new object[] { "tgag", "ajjja", "kajjaj" });
-            comboBox13.Location = new Point(362, 73);
-            comboBox13.Name = "comboBox13";
-            comboBox13.Size = new Size(179, 36);
-            comboBox13.TabIndex = 13;
-            // 
-            // comboBox12
-            // 
-            comboBox12.BackColor = Color.LightGray;
-            comboBox12.Cursor = Cursors.Hand;
-            comboBox12.FlatStyle = FlatStyle.System;
-            comboBox12.Font = new Font("Segoe UI", 14F);
-            comboBox12.ForeColor = Color.Black;
-            comboBox12.FormattingEnabled = true;
-            comboBox12.Items.AddRange(new object[] { "tgag", "ajjja", "kajjaj" });
-            comboBox12.Location = new Point(268, 531);
-            comboBox12.Name = "comboBox12";
-            comboBox12.Size = new Size(179, 39);
-            comboBox12.TabIndex = 12;
-            // 
-            // comboBox11
-            // 
-            comboBox11.BackColor = Color.LightGray;
-            comboBox11.Cursor = Cursors.Hand;
-            comboBox11.FlatStyle = FlatStyle.System;
-            comboBox11.Font = new Font("Segoe UI", 12F);
-            comboBox11.ForeColor = Color.Black;
-            comboBox11.FormattingEnabled = true;
-            comboBox11.Items.AddRange(new object[] { "tgag", "ajjja", "kajjaj" });
-            comboBox11.Location = new Point(268, 495);
-            comboBox11.Name = "comboBox11";
-            comboBox11.Size = new Size(179, 36);
-            comboBox11.TabIndex = 11;
-            // 
-            // comboBox10
-            // 
-            comboBox10.BackColor = Color.LightGray;
-            comboBox10.Cursor = Cursors.Hand;
-            comboBox10.FlatStyle = FlatStyle.System;
-            comboBox10.Font = new Font("Segoe UI", 12F);
-            comboBox10.ForeColor = Color.Black;
-            comboBox10.FormattingEnabled = true;
-            comboBox10.Items.AddRange(new object[] { "tgag", "ajjja", "kajjaj" });
-            comboBox10.Location = new Point(268, 459);
-            comboBox10.Name = "comboBox10";
-            comboBox10.Size = new Size(179, 36);
-            comboBox10.TabIndex = 10;
-            // 
-            // contextMenuStrip1
-            // 
-            contextMenuStrip1.ImageScalingSize = new Size(20, 20);
-            contextMenuStrip1.Name = "contextMenuStrip1";
-            contextMenuStrip1.Size = new Size(61, 4);
-            // 
-            // textBox3
-            // 
-            textBox3.BackColor = Color.LightGray;
-            textBox3.Font = new Font("Segoe UI", 11F);
-            textBox3.Location = new Point(399, 142);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(134, 32);
-            textBox3.TabIndex = 37;
-            // 
-            // textBox4
-            // 
-            textBox4.BackColor = Color.LightGray;
-            textBox4.Font = new Font("Segoe UI", 11F);
-            textBox4.Location = new Point(399, 180);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(134, 32);
-            textBox4.TabIndex = 38;
-            // 
-            // textBox5
-            // 
-            textBox5.BackColor = Color.LightGray;
-            textBox5.Font = new Font("Segoe UI", 11F);
-            textBox5.Location = new Point(399, 214);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(134, 32);
-            textBox5.TabIndex = 39;
-            // 
-            // textBox6
-            // 
-            textBox6.BackColor = Color.LightGray;
-            textBox6.Font = new Font("Segoe UI", 11F);
-            textBox6.Location = new Point(399, 251);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(134, 32);
-            textBox6.TabIndex = 40;
-            // 
-            // textBox7
-            // 
-            textBox7.BackColor = Color.LightGray;
-            textBox7.Font = new Font("Segoe UI", 11F);
-            textBox7.Location = new Point(399, 289);
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(134, 32);
-            textBox7.TabIndex = 41;
-            // 
-            // textBox8
-            // 
-            textBox8.BackColor = Color.LightGray;
-            textBox8.Font = new Font("Segoe UI", 11F);
-            textBox8.Location = new Point(399, 324);
-            textBox8.Name = "textBox8";
-            textBox8.Size = new Size(134, 32);
-            textBox8.TabIndex = 42;
-            // 
-            // textBox9
-            // 
-            textBox9.BackColor = Color.LightGray;
-            textBox9.Font = new Font("Segoe UI", 11F);
-            textBox9.Location = new Point(399, 359);
-            textBox9.Name = "textBox9";
-            textBox9.Size = new Size(134, 32);
-            textBox9.TabIndex = 43;
-            // 
-            // textBox10
-            // 
-            textBox10.BackColor = Color.LightGray;
-            textBox10.Font = new Font("Segoe UI", 11F);
-            textBox10.Location = new Point(399, 396);
-            textBox10.Name = "textBox10";
-            textBox10.Size = new Size(134, 32);
-            textBox10.TabIndex = 44;
-            // 
-            // textBox11
-            // 
-            textBox11.BackColor = Color.LightGray;
-            textBox11.Font = new Font("Segoe UI", 11F);
-            textBox11.Location = new Point(399, 432);
-            textBox11.Name = "textBox11";
-            textBox11.Size = new Size(134, 32);
-            textBox11.TabIndex = 45;
-            // 
-            // textBox12
-            // 
-            textBox12.BackColor = Color.LightGray;
-            textBox12.Font = new Font("Segoe UI", 11F);
-            textBox12.Location = new Point(399, 468);
-            textBox12.Name = "textBox12";
-            textBox12.Size = new Size(134, 32);
-            textBox12.TabIndex = 46;
-            // 
-            // textBox13
-            // 
-            textBox13.BackColor = Color.LightGray;
-            textBox13.Font = new Font("Segoe UI", 11F);
-            textBox13.Location = new Point(539, 467);
-            textBox13.Name = "textBox13";
-            textBox13.Size = new Size(95, 32);
-            textBox13.TabIndex = 58;
-            // 
-            // textBox14
-            // 
-            textBox14.BackColor = Color.LightGray;
-            textBox14.Font = new Font("Segoe UI", 11F);
-            textBox14.Location = new Point(539, 431);
-            textBox14.Name = "textBox14";
-            textBox14.Size = new Size(95, 32);
-            textBox14.TabIndex = 57;
-            // 
-            // textBox15
-            // 
-            textBox15.BackColor = Color.LightGray;
-            textBox15.Font = new Font("Segoe UI", 11F);
-            textBox15.Location = new Point(539, 395);
-            textBox15.Name = "textBox15";
-            textBox15.Size = new Size(95, 32);
-            textBox15.TabIndex = 56;
-            // 
-            // textBox16
-            // 
-            textBox16.BackColor = Color.LightGray;
-            textBox16.Font = new Font("Segoe UI", 11F);
-            textBox16.Location = new Point(539, 358);
-            textBox16.Name = "textBox16";
-            textBox16.Size = new Size(95, 32);
-            textBox16.TabIndex = 55;
-            // 
-            // textBox17
-            // 
-            textBox17.BackColor = Color.LightGray;
-            textBox17.Font = new Font("Segoe UI", 11F);
-            textBox17.Location = new Point(539, 323);
-            textBox17.Name = "textBox17";
-            textBox17.Size = new Size(95, 32);
-            textBox17.TabIndex = 54;
-            // 
-            // textBox18
-            // 
-            textBox18.BackColor = Color.LightGray;
-            textBox18.Font = new Font("Segoe UI", 11F);
-            textBox18.Location = new Point(539, 288);
-            textBox18.Name = "textBox18";
-            textBox18.Size = new Size(95, 32);
-            textBox18.TabIndex = 53;
-            // 
-            // textBox19
-            // 
-            textBox19.BackColor = Color.LightGray;
-            textBox19.Font = new Font("Segoe UI", 11F);
-            textBox19.Location = new Point(539, 250);
-            textBox19.Name = "textBox19";
-            textBox19.Size = new Size(95, 32);
-            textBox19.TabIndex = 52;
-            // 
-            // textBox20
-            // 
-            textBox20.BackColor = Color.LightGray;
-            textBox20.Font = new Font("Segoe UI", 11F);
-            textBox20.Location = new Point(539, 213);
-            textBox20.Name = "textBox20";
-            textBox20.Size = new Size(95, 32);
-            textBox20.TabIndex = 51;
-            // 
-            // textBox21
-            // 
-            textBox21.BackColor = Color.LightGray;
-            textBox21.Font = new Font("Segoe UI", 11F);
-            textBox21.Location = new Point(539, 179);
-            textBox21.Name = "textBox21";
-            textBox21.Size = new Size(95, 32);
-            textBox21.TabIndex = 50;
-            // 
-            // textBox22
-            // 
-            textBox22.BackColor = Color.LightGray;
-            textBox22.Font = new Font("Segoe UI", 11F);
-            textBox22.Location = new Point(539, 141);
-            textBox22.Name = "textBox22";
-            textBox22.Size = new Size(95, 32);
-            textBox22.TabIndex = 49;
-            // 
-            // textBox23
-            // 
-            textBox23.BackColor = Color.LightGray;
-            textBox23.Font = new Font("Segoe UI", 11F);
-            textBox23.Location = new Point(539, 106);
-            textBox23.Name = "textBox23";
-            textBox23.Size = new Size(95, 32);
-            textBox23.TabIndex = 48;
-            // 
-            // textBox24
-            // 
-            textBox24.BackColor = Color.LightGray;
-            textBox24.Font = new Font("Segoe UI", 11F);
-            textBox24.Location = new Point(539, 68);
-            textBox24.Name = "textBox24";
-            textBox24.Size = new Size(95, 32);
-            textBox24.TabIndex = 47;
-            // 
-            // Form3
+            // Tables_6_dayscs
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1289, 738);
-            Controls.Add(panel2);
+            ClientSize = new Size(1317, 848);
+            Controls.Add(panel3);
             Controls.Add(panel1);
-            Name = "Form3";
-            Text = "tables 3 days";
-            Load += Form3_Load;
+            Name = "Tables_6_dayscs";
+            Text = "Tables_6_dayscs";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            panel2.ResumeLayout(false);
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ResumeLayout(false);
         }
 
-        private void label5_Click(object sender, EventArgs e)
-        {
-            throw new NotImplementedException();
-        }
-
         #endregion
 
         private Panel panel1;
-        private Label label6;
         private Label label5;
+        private Label label6;
         private PictureBox pictureBox1;
-        private Panel panel2;
-        private PictureBox pictureBox2;
-        private ContextMenuStrip contextMenuStrip1;
-        private ComboBox comboBox10;
-        private ComboBox comboBox11;
-        private ComboBox comboBox12;
         private Panel panel3;
-        private Label label1;
-        private ComboBox comboBox15;
-        private ComboBox comboBox16;
-        private ComboBox comboBox17;
-        private ComboBox comboBox18;
-        private ComboBox comboBox19;
-        private ComboBox comboBox20;
-        private ComboBox comboBox4;
-        private ComboBox comboBox5;
-        private ComboBox comboBox6;
-        private ComboBox comboBox8;
-        private ComboBox comboBox9;
-        private ComboBox comboBox14;
-        private PictureBox pictureBox3;
-        private ComboBox comboBox1;
-        private ComboBox comboBox2;
-        private ComboBox comboBox3;
-        private ComboBox comboBox13;
-        private Label label22;
-        private Label label3;
-        private Label label2;
-        private Label label23;
-        private Label label4;
-        private Label label12;
-        private Label label11;
-        private Label label10;
-        private Label label9;
-        private Label label8;
-        private Label label7;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox9;
-        private TextBox textBox8;
-        private TextBox textBox7;
-        private TextBox textBox6;
-        private TextBox textBox5;
-        private TextBox textBox4;
-        private TextBox textBox3;
         private TextBox textBox13;
         private TextBox textBox14;
         private TextBox textBox15;
@@ -973,5 +773,39 @@ namespace Without_Coach
         private TextBox textBox12;
         private TextBox textBox11;
         private TextBox textBox10;
+        private TextBox textBox9;
+        private TextBox textBox8;
+        private TextBox textBox7;
+        private TextBox textBox6;
+        private TextBox textBox5;
+        private TextBox textBox4;
+        private TextBox textBox3;
+        private TextBox textBox2;
+        private TextBox textBox1;
+        private Label label23;
+        private Label label4;
+        private Label label12;
+        private Label label11;
+        private Label label10;
+        private Label label9;
+        private Label label8;
+        private Label label7;
+        private Label label22;
+        private Label label3;
+        private Label label2;
+        private Label label1;
+        private ComboBox comboBox15;
+        private ComboBox comboBox16;
+        private ComboBox comboBox17;
+        private ComboBox comboBox18;
+        private ComboBox comboBox19;
+        private ComboBox comboBox20;
+        private ComboBox comboBox4;
+        private ComboBox comboBox5;
+        private ComboBox comboBox6;
+        private ComboBox comboBox8;
+        private ComboBox comboBox9;
+        private ComboBox comboBox14;
+        private PictureBox pictureBox3;
     }
 }
