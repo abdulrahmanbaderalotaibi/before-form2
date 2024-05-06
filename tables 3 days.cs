@@ -16,5 +16,14 @@ namespace Without_Coach
         {
             InitializeComponent();
         }
+
+        private void comboBox7_SelectedIndexChanged(object sender, EventArgs e)
+        {
+        }
+
+        private void comboBox7_DropDownStyleChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

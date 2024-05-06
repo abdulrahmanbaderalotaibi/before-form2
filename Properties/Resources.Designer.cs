@@ -103,6 +103,56 @@ namespace Without_Coach.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap tables_3_days {
+            get {
+                object obj = ResourceManager.GetObject("tables 3 days", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tables_3_days_colored {
+            get {
+                object obj = ResourceManager.GetObject("tables 3 days.colored", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tables_3_days1 {
+            get {
+                object obj = ResourceManager.GetObject("tables 3 days1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tables_3_days2 {
+            get {
+                object obj = ResourceManager.GetObject("tables 3 days2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tables_3_days3 {
+            get {
+                object obj = ResourceManager.GetObject("tables 3 days3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap the_original_photo_of_without_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("the_original_photo_of_without-removebg-preview", resourceCulture);
