@@ -103,6 +103,16 @@ namespace Without_Coach.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap tabels_6_days_after {
+            get {
+                object obj = ResourceManager.GetObject("tabels 6 days after", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap tables_3_days {
             get {
                 object obj = ResourceManager.GetObject("tables 3 days", resourceCulture);

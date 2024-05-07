@@ -32,9 +32,9 @@ namespace Without_Coach
         private void button1_Click(object sender, EventArgs e)
         {
 
-            Form Form3 = new Form3();
+            Form Tables_6_dayscs = new Tables_6_dayscs();
             this.Hide();
-            Form3.Show();
+            Tables_6_dayscs.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
