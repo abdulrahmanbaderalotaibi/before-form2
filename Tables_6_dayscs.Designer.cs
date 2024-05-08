@@ -81,7 +81,6 @@ namespace Without_Coach
             comboBox31 = new ComboBox();
             comboBox32 = new ComboBox();
             comboBox33 = new ComboBox();
-            comboBox34 = new ComboBox();
             comboBox35 = new ComboBox();
             comboBox36 = new ComboBox();
             pictureBox2 = new PictureBox();
@@ -151,7 +150,7 @@ namespace Without_Coach
             panel1.ForeColor = SystemColors.ControlText;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(339, 1003);
+            panel1.Size = new Size(339, 1036);
             panel1.TabIndex = 10;
             // 
             // label5
@@ -238,7 +237,6 @@ namespace Without_Coach
             panel3.Controls.Add(comboBox31);
             panel3.Controls.Add(comboBox32);
             panel3.Controls.Add(comboBox33);
-            panel3.Controls.Add(comboBox34);
             panel3.Controls.Add(comboBox35);
             panel3.Controls.Add(comboBox36);
             panel3.Controls.Add(pictureBox2);
@@ -294,7 +292,7 @@ namespace Without_Coach
             panel3.Dock = DockStyle.Fill;
             panel3.Location = new Point(339, 0);
             panel3.Name = "panel3";
-            panel3.Size = new Size(1151, 1003);
+            panel3.Size = new Size(1247, 1036);
             panel3.TabIndex = 18;
             // 
             // textBox37
@@ -404,6 +402,7 @@ namespace Without_Coach
             textBox48.Name = "textBox48";
             textBox48.Size = new Size(85, 32);
             textBox48.TabIndex = 98;
+            textBox48.TextChanged += this.textBox48_TextChanged;
             // 
             // textBox25
             // 
@@ -644,6 +643,7 @@ namespace Without_Coach
             label25.Size = new Size(27, 31);
             label25.TabIndex = 75;
             label25.Text = "3";
+            label25.Click += label25_Click;
             // 
             // label26
             // 
@@ -651,11 +651,12 @@ namespace Without_Coach
             label26.FlatStyle = FlatStyle.Flat;
             label26.Font = new Font("Segoe UI", 22F, FontStyle.Bold, GraphicsUnit.World, 0);
             label26.ForeColor = SystemColors.ActiveCaptionText;
-            label26.Location = new Point(311, 508);
+            label26.Location = new Point(311, 505);
             label26.Name = "label26";
             label26.Size = new Size(27, 31);
             label26.TabIndex = 74;
             label26.Text = "3";
+            label26.Click += this.label26_Click;
             // 
             // comboBox2
             // 
@@ -796,20 +797,6 @@ namespace Without_Coach
             comboBox33.Name = "comboBox33";
             comboBox33.Size = new Size(179, 36);
             comboBox33.TabIndex = 63;
-            // 
-            // comboBox34
-            // 
-            comboBox34.BackColor = Color.LightGray;
-            comboBox34.Cursor = Cursors.Hand;
-            comboBox34.FlatStyle = FlatStyle.System;
-            comboBox34.Font = new Font("Segoe UI", 14F);
-            comboBox34.ForeColor = Color.Black;
-            comboBox34.FormattingEnabled = true;
-            comboBox34.Items.AddRange(new object[] { "tgag", "ajjja", "kajjaj" });
-            comboBox34.Location = new Point(910, 1007);
-            comboBox34.Name = "comboBox34";
-            comboBox34.Size = new Size(179, 39);
-            comboBox34.TabIndex = 62;
             // 
             // comboBox35
             // 
@@ -1077,6 +1064,7 @@ namespace Without_Coach
             label23.Size = new Size(27, 31);
             label23.TabIndex = 34;
             label23.Text = "3";
+            label23.Click += label23_Click;
             // 
             // label4
             // 
@@ -1209,6 +1197,7 @@ namespace Without_Coach
             label1.Size = new Size(27, 31);
             label1.TabIndex = 23;
             label1.Text = "3";
+            label1.Click += label1_Click;
             // 
             // comboBox15
             // 
@@ -1392,7 +1381,7 @@ namespace Without_Coach
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1490, 1003);
+            ClientSize = new Size(1586, 1036);
             Controls.Add(panel3);
             Controls.Add(panel1);
             Name = "Tables_6_dayscs";
@@ -1408,116 +1397,184 @@ namespace Without_Coach
             ResumeLayout(false);
         }
 
-        private void Tables_6_dayscs_Load(object sender, EventArgs e)
+        private void textBox48_TextChanged(object sender, EventArgs e)
         {
             throw new NotImplementedException();
         }
 
+        private void label23_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void label25_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void Tables_6_dayscs_Load(object sender, EventArgs e)
+        {
+            label1.Parent = pictureBox3;
+            label1.BackColor = Color.Transparent;
+            label2.Parent = pictureBox3;
+            label2.BackColor = Color.Transparent;
+            label3.Parent = pictureBox3;
+            label3.BackColor = Color.Transparent;
+            label4.Parent = pictureBox3;
+            label4.BackColor = Color.Transparent;
+            label23.Parent = pictureBox3;
+            label23.BackColor = Color.Transparent;
+            label22.Parent = pictureBox3;
+            label22.BackColor = Color.Transparent;
+            label7.Parent = pictureBox3;
+            label7.BackColor = Color.Transparent;
+            label8.Parent = pictureBox3;
+            label8.BackColor = Color.Transparent;
+            label9.Parent = pictureBox3;
+            label9.BackColor = Color.Transparent;
+            label10.Parent = pictureBox3;
+            label10.BackColor = Color.Transparent;
+            label11.Parent = pictureBox3;
+            label11.BackColor = Color.Transparent;
+            label12.Parent = pictureBox3;
+            label12.BackColor = Color.Transparent;
+
+            label13.Parent = pictureBox2;
+            label13.BackColor = Color.Transparent;
+            label14.Parent = pictureBox2;
+            label14.BackColor = Color.Transparent;
+            label15.Parent = pictureBox2;
+            label15.BackColor = Color.Transparent;
+            label16.Parent = pictureBox2;
+            label16.BackColor = Color.Transparent;
+            label17.Parent = pictureBox2;
+            label17.BackColor = Color.Transparent;
+            label18.Parent = pictureBox2;
+            label18.BackColor = Color.Transparent;
+            label19.Parent = pictureBox2;
+            label19.BackColor = Color.Transparent;
+            label20.Parent = pictureBox2;
+            label20.BackColor = Color.Transparent;
+            label21.Parent = pictureBox2;
+            label21.BackColor = Color.Transparent;
+            label24.Parent = pictureBox2;
+            label24.BackColor = Color.Transparent;
+            label25.Parent = pictureBox2;
+            label25.BackColor = Color.Transparent;
+            label26.Parent = pictureBox2;
+            label26.BackColor = Color.Transparent;
+        }
+
         #endregion
 
-        private Panel panel1;
-        private Label label5;
-        private Label label6;
-        private PictureBox pictureBox1;
-        private Panel panel3;
-        private TextBox textBox13;
-        private TextBox textBox14;
-        private TextBox textBox15;
-        private TextBox textBox16;
-        private TextBox textBox17;
-        private TextBox textBox18;
-        private TextBox textBox19;
-        private TextBox textBox20;
-        private TextBox textBox21;
-        private TextBox textBox22;
-        private TextBox textBox23;
-        private TextBox textBox24;
-        private TextBox textBox12;
-        private TextBox textBox11;
-        private TextBox textBox10;
-        private TextBox textBox9;
-        private TextBox textBox8;
-        private TextBox textBox7;
-        private TextBox textBox6;
-        private TextBox textBox5;
-        private TextBox textBox4;
-        private TextBox textBox3;
-        private TextBox textBox2;
-        private TextBox textBox1;
-        private Label label23;
-        private Label label4;
-        private Label label12;
-        private Label label11;
-        private Label label10;
-        private Label label9;
-        private Label label8;
-        private Label label7;
-        private Label label22;
-        private Label label3;
-        private Label label2;
-        private Label label1;
-        private ComboBox comboBox15;
-        private ComboBox comboBox16;
-        private ComboBox comboBox17;
-        private ComboBox comboBox18;
-        private ComboBox comboBox19;
-        private ComboBox comboBox20;
-        private ComboBox comboBox4;
-        private ComboBox comboBox5;
-        private ComboBox comboBox6;
-        private ComboBox comboBox8;
-        private ComboBox comboBox9;
-        private ComboBox comboBox14;
-        private PictureBox pictureBox3;
-        private PictureBox pictureBox2;
-        private ComboBox comboBox2;
-        private ComboBox comboBox1;
-        private ComboBox comboBox25;
-        private ComboBox comboBox26;
-        private ComboBox comboBox27;
-        private ComboBox comboBox28;
-        private ComboBox comboBox29;
-        private ComboBox comboBox31;
-        private ComboBox comboBox32;
-        private ComboBox comboBox33;
-        private ComboBox comboBox34;
-        private ComboBox comboBox35;
-        private ComboBox comboBox36;
-        private Label label13;
-        private Label label14;
-        private Label label15;
-        private Label label16;
-        private Label label17;
-        private Label label18;
-        private Label label19;
-        private Label label20;
-        private Label label21;
-        private Label label24;
-        private Label label25;
-        private Label label26;
-        private TextBox textBox25;
-        private TextBox textBox26;
-        private TextBox textBox27;
-        private TextBox textBox28;
-        private TextBox textBox29;
-        private TextBox textBox30;
-        private TextBox textBox31;
-        private TextBox textBox32;
-        private TextBox textBox33;
-        private TextBox textBox34;
-        private TextBox textBox35;
-        private TextBox textBox36;
-        private TextBox textBox37;
-        private TextBox textBox38;
-        private TextBox textBox39;
-        private TextBox textBox40;
-        private TextBox textBox41;
-        private TextBox textBox42;
-        private TextBox textBox43;
-        private TextBox textBox44;
-        private TextBox textBox45;
-        private TextBox textBox46;
-        private TextBox textBox47;
-        private TextBox textBox48;
+         Panel panel1;
+        Label label5;
+        Label label6;
+        PictureBox pictureBox1;
+        Panel panel3;
+        TextBox textBox13;
+        TextBox textBox14;
+        TextBox textBox15;
+        TextBox textBox16;
+        TextBox textBox17;
+        TextBox textBox18;
+        TextBox textBox19;
+        TextBox textBox20;
+        TextBox textBox21;
+        TextBox textBox22;
+        TextBox textBox23;
+        TextBox textBox24;
+        TextBox textBox12;
+        TextBox textBox11;
+       TextBox textBox10;
+            TextBox textBox9;
+        TextBox textBox8;
+        TextBox textBox7;
+        TextBox textBox6;
+        TextBox textBox5;
+        TextBox textBox4;
+        TextBox textBox3;
+        TextBox textBox2;
+     TextBox textBox1;
+        Label label23;
+        Label label4;
+        Label label12;
+        Label label11;
+        Label label10;
+        Label label9;
+        Label label8;
+        Label label7;
+        Label label22;
+        Label label3;
+        Label label2;
+        Label label1;
+        ComboBox comboBox15;
+            ComboBox comboBox16;
+        ComboBox comboBox17;
+        ComboBox comboBox18;
+        ComboBox comboBox19;
+        ComboBox comboBox20;
+        ComboBox comboBox4;
+        ComboBox comboBox5;
+         ComboBox comboBox6;
+        ComboBox comboBox8;
+        ComboBox comboBox9;
+        ComboBox comboBox14;
+        PictureBox pictureBox3;
+        PictureBox pictureBox2;
+        ComboBox comboBox2;
+         ComboBox comboBox1;
+        ComboBox comboBox25;
+        ComboBox comboBox26;
+        ComboBox comboBox27;
+        ComboBox comboBox28;
+        ComboBox comboBox29;
+        ComboBox comboBox31;
+        ComboBox comboBox32;
+        ComboBox comboBox33;
+         ComboBox comboBox35;
+        ComboBox comboBox36;
+        Label label13;
+         Label label14;
+        Label label15;
+         Label label16;
+        Label label17;
+        Label label18;
+        Label label19;
+        Label label20;
+        Label label21;
+        Label label24;
+        Label label25;
+        Label label26;
+        TextBox textBox25;
+        TextBox textBox26;
+        TextBox textBox27;
+        TextBox textBox28;
+        TextBox textBox29;
+        TextBox textBox30;
+        TextBox textBox31;
+        TextBox textBox32;
+        TextBox textBox33;
+        TextBox textBox34;
+        TextBox textBox35;
+        TextBox textBox36;
+        TextBox textBox37;
+        TextBox textBox38;
+        TextBox textBox39;
+        TextBox textBox40;
+        TextBox textBox41;
+        TextBox textBox42;
+         TextBox textBox43;
+        TextBox textBox44;
+        TextBox textBox45;
+       TextBox textBox46;
+       TextBox textBox47;
+       TextBox textBox48;
+        private EventHandler label26_Click;
     }
 }

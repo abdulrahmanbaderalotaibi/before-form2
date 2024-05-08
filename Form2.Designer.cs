@@ -55,6 +55,7 @@
             comboBox1.TabIndex = 1;
             comboBox1.Text = "Days";
             comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
+            comboBox1.Click += comboBox1_Click;
             comboBox1.KeyDown += comboBox1_KeyDown;
             // 
             // label1

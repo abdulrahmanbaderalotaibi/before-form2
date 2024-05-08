@@ -31,10 +31,27 @@ namespace Without_Coach
 
         private void button1_Click(object sender, EventArgs e)
         {
+            // Check if the First item is selected in the comboBox
+            if (comboBox1.SelectedIndex == 0)
+            {
+                // Open Form2
+                Form form3 = new Form3();
+                form3.Show();
+            }
+            else if (comboBox1.SelectedIndex == 3) 
+            {
+                // Open Form1
+                Form Tables_6_dayscs = new Tables_6_dayscs();
+                this.Hide();
+                Tables_6_dayscs.Show();
+            }
+            else
+            {
+               
+                MessageBox.Show("Please select another item from the combobox","Erorr",MessageBoxButtons.OK,MessageBoxIcon.Error);
+            }
+            
 
-            Form Tables_6_dayscs = new Tables_6_dayscs();
-            this.Hide();
-            Tables_6_dayscs.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -89,5 +106,9 @@ namespace Without_Coach
                 comboBox3.Focus();
             }
         }
+
+        private void comboBox1_Click(object sender, EventArgs e)
+        {
+       }
     }
 }
