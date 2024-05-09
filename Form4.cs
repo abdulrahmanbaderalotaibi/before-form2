@@ -56,10 +56,12 @@ namespace Without_Coach
             label11.BackColor = Color.Transparent;
             label12.Parent = pictureBox3;
             label12.BackColor = Color.Transparent;
-            label14.Parent = pictureBox3;
-            label14.BackColor = Color.Transparent;
-            label29.Parent = pictureBox3;
-            label29.BackColor = Color.Transparent;
+
+            label15.Parent = pictureBox2;
+            label15.BackColor = Color.Transparent;
+
+
+
 
 
         }
@@ -70,6 +72,11 @@ namespace Without_Coach
         }
 
         private void label12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label14_Click(object sender, EventArgs e)
         {
 
         }

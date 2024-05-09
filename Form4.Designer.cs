@@ -34,7 +34,19 @@
             label6 = new Label();
             pictureBox1 = new PictureBox();
             panel3 = new Panel();
-            label29 = new Label();
+            label14 = new Label();
+            label15 = new Label();
+            label13 = new Label();
+            label16 = new Label();
+            label17 = new Label();
+            label18 = new Label();
+            label19 = new Label();
+            label20 = new Label();
+            label21 = new Label();
+            label25 = new Label();
+            label26 = new Label();
+            label27 = new Label();
+            label28 = new Label();
             textBox37 = new TextBox();
             textBox38 = new TextBox();
             textBox39 = new TextBox();
@@ -72,7 +84,6 @@
             comboBox33 = new ComboBox();
             comboBox35 = new ComboBox();
             comboBox36 = new ComboBox();
-            pictureBox2 = new PictureBox();
             textBox13 = new TextBox();
             textBox14 = new TextBox();
             textBox15 = new TextBox();
@@ -122,23 +133,12 @@
             comboBox9 = new ComboBox();
             comboBox14 = new ComboBox();
             pictureBox3 = new PictureBox();
-            label14 = new Label();
-            label13 = new Label();
-            label16 = new Label();
-            label17 = new Label();
-            label18 = new Label();
-            label19 = new Label();
-            label20 = new Label();
-            label21 = new Label();
-            label25 = new Label();
-            label26 = new Label();
-            label27 = new Label();
-            label28 = new Label();
+            pictureBox2 = new PictureBox();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // panel1
@@ -192,6 +192,8 @@
             // 
             panel3.BackColor = Color.LightGray;
             panel3.BackgroundImageLayout = ImageLayout.Stretch;
+            panel3.Controls.Add(label14);
+            panel3.Controls.Add(label15);
             panel3.Controls.Add(label13);
             panel3.Controls.Add(label16);
             panel3.Controls.Add(label17);
@@ -203,8 +205,6 @@
             panel3.Controls.Add(label26);
             panel3.Controls.Add(label27);
             panel3.Controls.Add(label28);
-            panel3.Controls.Add(label14);
-            panel3.Controls.Add(label29);
             panel3.Controls.Add(textBox37);
             panel3.Controls.Add(textBox38);
             panel3.Controls.Add(textBox39);
@@ -298,15 +298,161 @@
             panel3.Size = new Size(1247, 1036);
             panel3.TabIndex = 19;
             // 
-            // label29
+            // label14
             // 
-            label29.AutoSize = true;
-            label29.Font = new Font("Segoe UI", 22F, FontStyle.Bold, GraphicsUnit.World);
-            label29.Location = new Point(311, 505);
-            label29.Name = "label29";
-            label29.Size = new Size(27, 31);
-            label29.TabIndex = 114;
-            label29.Text = "3";
+            label14.AutoSize = true;
+            label14.FlatStyle = FlatStyle.Flat;
+            label14.Font = new Font("Segoe UI", 22F, FontStyle.Bold, GraphicsUnit.World, 0);
+            label14.ForeColor = SystemColors.ActiveCaptionText;
+            label14.Location = new Point(311, 545);
+            label14.Name = "label14";
+            label14.Size = new Size(27, 31);
+            label14.TabIndex = 130;
+            label14.Text = "3";
+            // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.FlatStyle = FlatStyle.Flat;
+            label15.Font = new Font("Segoe UI", 22F, FontStyle.Bold, GraphicsUnit.World, 0);
+            label15.ForeColor = SystemColors.ActiveCaptionText;
+            label15.Location = new Point(311, 505);
+            label15.Name = "label15";
+            label15.Size = new Size(27, 31);
+            label15.TabIndex = 129;
+            label15.Text = "3";
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.FlatStyle = FlatStyle.Flat;
+            label13.Font = new Font("Segoe UI", 22F, FontStyle.Bold, GraphicsUnit.World, 0);
+            label13.ForeColor = SystemColors.ActiveCaptionText;
+            label13.Location = new Point(311, 1030);
+            label13.Name = "label13";
+            label13.Size = new Size(27, 31);
+            label13.TabIndex = 127;
+            label13.Text = "3";
+            // 
+            // label16
+            // 
+            label16.AutoSize = true;
+            label16.FlatStyle = FlatStyle.Flat;
+            label16.Font = new Font("Segoe UI", 22F, FontStyle.Bold, GraphicsUnit.World, 0);
+            label16.ForeColor = SystemColors.ActiveCaptionText;
+            label16.Location = new Point(311, 952);
+            label16.Name = "label16";
+            label16.Size = new Size(27, 31);
+            label16.TabIndex = 125;
+            label16.Text = "3";
+            // 
+            // label17
+            // 
+            label17.AutoSize = true;
+            label17.FlatStyle = FlatStyle.Flat;
+            label17.Font = new Font("Segoe UI", 22F, FontStyle.Bold, GraphicsUnit.World, 0);
+            label17.ForeColor = SystemColors.ActiveCaptionText;
+            label17.Location = new Point(311, 951);
+            label17.Name = "label17";
+            label17.Size = new Size(27, 31);
+            label17.TabIndex = 124;
+            label17.Text = "3";
+            // 
+            // label18
+            // 
+            label18.AutoSize = true;
+            label18.FlatStyle = FlatStyle.Flat;
+            label18.Font = new Font("Segoe UI", 22F, FontStyle.Bold, GraphicsUnit.World, 0);
+            label18.ForeColor = SystemColors.ActiveCaptionText;
+            label18.Location = new Point(311, 908);
+            label18.Name = "label18";
+            label18.Size = new Size(27, 31);
+            label18.TabIndex = 123;
+            label18.Text = "3";
+            // 
+            // label19
+            // 
+            label19.AutoSize = true;
+            label19.FlatStyle = FlatStyle.Flat;
+            label19.Font = new Font("Segoe UI", 22F, FontStyle.Bold, GraphicsUnit.World, 0);
+            label19.ForeColor = SystemColors.ActiveCaptionText;
+            label19.Location = new Point(311, 866);
+            label19.Name = "label19";
+            label19.Size = new Size(27, 31);
+            label19.TabIndex = 122;
+            label19.Text = "3";
+            // 
+            // label20
+            // 
+            label20.AutoSize = true;
+            label20.FlatStyle = FlatStyle.Flat;
+            label20.Font = new Font("Segoe UI", 22F, FontStyle.Bold, GraphicsUnit.World, 0);
+            label20.ForeColor = SystemColors.ActiveCaptionText;
+            label20.Location = new Point(311, 830);
+            label20.Name = "label20";
+            label20.Size = new Size(27, 31);
+            label20.TabIndex = 121;
+            label20.Text = "3";
+            // 
+            // label21
+            // 
+            label21.AutoSize = true;
+            label21.FlatStyle = FlatStyle.Flat;
+            label21.Font = new Font("Segoe UI", 22F, FontStyle.Bold, GraphicsUnit.World, 0);
+            label21.ForeColor = SystemColors.ActiveCaptionText;
+            label21.Location = new Point(311, 788);
+            label21.Name = "label21";
+            label21.Size = new Size(27, 31);
+            label21.TabIndex = 120;
+            label21.Text = "3";
+            // 
+            // label25
+            // 
+            label25.AutoSize = true;
+            label25.FlatStyle = FlatStyle.Flat;
+            label25.Font = new Font("Segoe UI", 22F, FontStyle.Bold, GraphicsUnit.World, 0);
+            label25.ForeColor = SystemColors.ActiveCaptionText;
+            label25.Location = new Point(311, 746);
+            label25.Name = "label25";
+            label25.Size = new Size(27, 31);
+            label25.TabIndex = 119;
+            label25.Text = "3";
+            // 
+            // label26
+            // 
+            label26.AutoSize = true;
+            label26.FlatStyle = FlatStyle.Flat;
+            label26.Font = new Font("Segoe UI", 22F, FontStyle.Bold, GraphicsUnit.World, 0);
+            label26.ForeColor = SystemColors.ActiveCaptionText;
+            label26.Location = new Point(311, 704);
+            label26.Name = "label26";
+            label26.Size = new Size(27, 31);
+            label26.TabIndex = 118;
+            label26.Text = "3";
+            // 
+            // label27
+            // 
+            label27.AutoSize = true;
+            label27.FlatStyle = FlatStyle.Flat;
+            label27.Font = new Font("Segoe UI", 22F, FontStyle.Bold, GraphicsUnit.World, 0);
+            label27.ForeColor = SystemColors.ActiveCaptionText;
+            label27.Location = new Point(311, 665);
+            label27.Name = "label27";
+            label27.Size = new Size(27, 31);
+            label27.TabIndex = 117;
+            label27.Text = "3";
+            // 
+            // label28
+            // 
+            label28.AutoSize = true;
+            label28.FlatStyle = FlatStyle.Flat;
+            label28.Font = new Font("Segoe UI", 22F, FontStyle.Bold, GraphicsUnit.World, 0);
+            label28.ForeColor = SystemColors.ActiveCaptionText;
+            label28.Location = new Point(311, 629);
+            label28.Name = "label28";
+            label28.Size = new Size(27, 31);
+            label28.TabIndex = 116;
+            label28.Text = "3";
             // 
             // textBox37
             // 
@@ -703,17 +849,6 @@
             comboBox36.Name = "comboBox36";
             comboBox36.Size = new Size(179, 36);
             comboBox36.TabIndex = 60;
-            // 
-            // pictureBox2
-            // 
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(-4, 503);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(811, 484);
-            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox2.TabIndex = 59;
-            pictureBox2.TabStop = false;
-            pictureBox2.Visible = false;
             // 
             // textBox13
             // 
@@ -1256,147 +1391,15 @@
             pictureBox3.TabIndex = 0;
             pictureBox3.TabStop = false;
             // 
-            // label14
+            // pictureBox2
             // 
-            label14.AutoSize = true;
-            label14.Font = new Font("Segoe UI", 22F, FontStyle.Bold, GraphicsUnit.World);
-            label14.Location = new Point(311, 545);
-            label14.Name = "label14";
-            label14.Size = new Size(27, 31);
-            label14.TabIndex = 115;
-            label14.Text = "3";
-            // 
-            // label13
-            // 
-            label13.AutoSize = true;
-            label13.FlatStyle = FlatStyle.Flat;
-            label13.Font = new Font("Segoe UI", 22F, FontStyle.Bold, GraphicsUnit.World, 0);
-            label13.ForeColor = SystemColors.ActiveCaptionText;
-            label13.Location = new Point(311, 1030);
-            label13.Name = "label13";
-            label13.Size = new Size(27, 31);
-            label13.TabIndex = 127;
-            label13.Text = "3";
-            // 
-            // label16
-            // 
-            label16.AutoSize = true;
-            label16.FlatStyle = FlatStyle.Flat;
-            label16.Font = new Font("Segoe UI", 22F, FontStyle.Bold, GraphicsUnit.World, 0);
-            label16.ForeColor = SystemColors.ActiveCaptionText;
-            label16.Location = new Point(311, 952);
-            label16.Name = "label16";
-            label16.Size = new Size(27, 31);
-            label16.TabIndex = 125;
-            label16.Text = "3";
-            // 
-            // label17
-            // 
-            label17.AutoSize = true;
-            label17.FlatStyle = FlatStyle.Flat;
-            label17.Font = new Font("Segoe UI", 22F, FontStyle.Bold, GraphicsUnit.World, 0);
-            label17.ForeColor = SystemColors.ActiveCaptionText;
-            label17.Location = new Point(311, 951);
-            label17.Name = "label17";
-            label17.Size = new Size(27, 31);
-            label17.TabIndex = 124;
-            label17.Text = "3";
-            // 
-            // label18
-            // 
-            label18.AutoSize = true;
-            label18.FlatStyle = FlatStyle.Flat;
-            label18.Font = new Font("Segoe UI", 22F, FontStyle.Bold, GraphicsUnit.World, 0);
-            label18.ForeColor = SystemColors.ActiveCaptionText;
-            label18.Location = new Point(311, 908);
-            label18.Name = "label18";
-            label18.Size = new Size(27, 31);
-            label18.TabIndex = 123;
-            label18.Text = "3";
-            // 
-            // label19
-            // 
-            label19.AutoSize = true;
-            label19.FlatStyle = FlatStyle.Flat;
-            label19.Font = new Font("Segoe UI", 22F, FontStyle.Bold, GraphicsUnit.World, 0);
-            label19.ForeColor = SystemColors.ActiveCaptionText;
-            label19.Location = new Point(311, 866);
-            label19.Name = "label19";
-            label19.Size = new Size(27, 31);
-            label19.TabIndex = 122;
-            label19.Text = "3";
-            // 
-            // label20
-            // 
-            label20.AutoSize = true;
-            label20.FlatStyle = FlatStyle.Flat;
-            label20.Font = new Font("Segoe UI", 22F, FontStyle.Bold, GraphicsUnit.World, 0);
-            label20.ForeColor = SystemColors.ActiveCaptionText;
-            label20.Location = new Point(311, 830);
-            label20.Name = "label20";
-            label20.Size = new Size(27, 31);
-            label20.TabIndex = 121;
-            label20.Text = "3";
-            // 
-            // label21
-            // 
-            label21.AutoSize = true;
-            label21.FlatStyle = FlatStyle.Flat;
-            label21.Font = new Font("Segoe UI", 22F, FontStyle.Bold, GraphicsUnit.World, 0);
-            label21.ForeColor = SystemColors.ActiveCaptionText;
-            label21.Location = new Point(311, 788);
-            label21.Name = "label21";
-            label21.Size = new Size(27, 31);
-            label21.TabIndex = 120;
-            label21.Text = "3";
-            // 
-            // label25
-            // 
-            label25.AutoSize = true;
-            label25.FlatStyle = FlatStyle.Flat;
-            label25.Font = new Font("Segoe UI", 22F, FontStyle.Bold, GraphicsUnit.World, 0);
-            label25.ForeColor = SystemColors.ActiveCaptionText;
-            label25.Location = new Point(311, 746);
-            label25.Name = "label25";
-            label25.Size = new Size(27, 31);
-            label25.TabIndex = 119;
-            label25.Text = "3";
-            // 
-            // label26
-            // 
-            label26.AutoSize = true;
-            label26.FlatStyle = FlatStyle.Flat;
-            label26.Font = new Font("Segoe UI", 22F, FontStyle.Bold, GraphicsUnit.World, 0);
-            label26.ForeColor = SystemColors.ActiveCaptionText;
-            label26.Location = new Point(311, 704);
-            label26.Name = "label26";
-            label26.Size = new Size(27, 31);
-            label26.TabIndex = 118;
-            label26.Text = "3";
-            // 
-            // label27
-            // 
-            label27.AutoSize = true;
-            label27.FlatStyle = FlatStyle.Flat;
-            label27.Font = new Font("Segoe UI", 22F, FontStyle.Bold, GraphicsUnit.World, 0);
-            label27.ForeColor = SystemColors.ActiveCaptionText;
-            label27.Location = new Point(311, 665);
-            label27.Name = "label27";
-            label27.Size = new Size(27, 31);
-            label27.TabIndex = 117;
-            label27.Text = "3";
-            // 
-            // label28
-            // 
-            label28.AutoSize = true;
-            label28.FlatStyle = FlatStyle.Flat;
-            label28.Font = new Font("Segoe UI", 22F, FontStyle.Bold, GraphicsUnit.World, 0);
-            label28.ForeColor = SystemColors.ActiveCaptionText;
-            label28.Location = new Point(311, 629);
-            label28.Name = "label28";
-            label28.Size = new Size(27, 31);
-            label28.TabIndex = 116;
-            label28.Text = "3";
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(-4, 503);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(811, 484);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 59;
+            pictureBox2.TabStop = false;
             // 
             // Form4
             // 
@@ -1413,8 +1416,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
         }
 
@@ -1462,7 +1465,6 @@
         private ComboBox comboBox33;
         private ComboBox comboBox35;
         private ComboBox comboBox36;
-        private PictureBox pictureBox2;
         private TextBox textBox13;
         private TextBox textBox14;
         private TextBox textBox15;
@@ -1512,8 +1514,6 @@
         private ComboBox comboBox9;
         private ComboBox comboBox14;
         private PictureBox pictureBox3;
-        private Label label29;
-        private Label label14;
         private Label label13;
         private Label label16;
         private Label label17;
@@ -1525,5 +1525,8 @@
         private Label label26;
         private Label label27;
         private Label label28;
+        private Label label15;
+        private Label label14;
+        private PictureBox pictureBox2;
     }
 }
