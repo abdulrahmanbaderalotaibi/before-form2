@@ -656,8 +656,6 @@ namespace Without_Coach
             label26.Size = new Size(27, 31);
             label26.TabIndex = 74;
             label26.Text = "3";
-            label26.Click += this.label26_Click;
-            // 
             // comboBox2
             // 
             comboBox2.BackColor = Color.LightGray;
