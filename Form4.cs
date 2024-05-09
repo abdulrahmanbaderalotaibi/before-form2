@@ -4,35 +4,34 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Without_Coach
 {
-    public partial class Form3 : Form
+    public partial class Form4 : Form
     {
-        public Form3()
+        public Form4()
         {
             InitializeComponent();
         }
 
-        private void comboBox7_SelectedIndexChanged(object sender, EventArgs e)
-        {
-        }
 
-        private void comboBox7_DropDownStyleChanged(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void comboBox1_Format(object sender, ListControlConvertEventArgs e)
+        private void label25_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void Form3_Load(object sender, EventArgs e)
+        private void Form4_Load(object sender, EventArgs e)
         {
+
             label1.Parent = pictureBox3;
             label1.BackColor = Color.Transparent;
             label2.Parent = pictureBox3;
@@ -57,9 +56,20 @@ namespace Without_Coach
             label11.BackColor = Color.Transparent;
             label12.Parent = pictureBox3;
             label12.BackColor = Color.Transparent;
+            label14.Parent = pictureBox3;
+            label14.BackColor = Color.Transparent;
+            label29.Parent = pictureBox3;
+            label29.BackColor = Color.Transparent;
+
+
         }
 
-        private void label7_Click(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label12_Click(object sender, EventArgs e)
         {
 
         }

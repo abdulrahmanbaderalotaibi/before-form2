@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -23,27 +24,33 @@ namespace Without_Coach
         {
 
         }
-
+       
         private void label3_Click(object sender, EventArgs e)
         {
 
         }
+        private void UpdateLabel()
+        {
 
+        }
         private void button1_Click(object sender, EventArgs e)
         {
-            // Check if the First item is selected in the comboBox
             if (comboBox1.SelectedIndex == 0)
             {
                 // Open Form2
                 Form form3 = new Form3();
                 form3.Show();
             }
-            else if (comboBox1.SelectedIndex == 3) 
+            else if (comboBox1.SelectedIndex == 3)
             {
                 // Open Form1
-                Form Tables_6_dayscs = new Tables_6_dayscs();
+                Form Form4 = new Form4();
                 this.Hide();
-                Tables_6_dayscs.Show();
+                Form4.Show();
+            }
+            else if (comboBox2.SelectedIndex == 0 && comboBox1.SelectedIndex == 3)
+            {
+                
             }
             else
             {
@@ -111,4 +118,5 @@ namespace Without_Coach
         {
        }
     }
+    
 }

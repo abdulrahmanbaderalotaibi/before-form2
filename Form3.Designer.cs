@@ -526,7 +526,7 @@ namespace Without_Coach
             label9.Size = new Size(27, 31);
             label9.TabIndex = 29;
             label9.Text = "3";
-            label9.Click += this.label9_Click;
+            label9.Click += label9_Click;
             // 
             // label8
             // 
@@ -551,6 +551,7 @@ namespace Without_Coach
             label7.Size = new Size(27, 31);
             label7.TabIndex = 27;
             label7.Text = "3";
+            label7.Click += label7_Click;
             // 
             // label22
             // 
