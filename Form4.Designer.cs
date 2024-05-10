@@ -718,7 +718,6 @@
             comboBox25.Font = new Font("Segoe UI", 14F);
             comboBox25.ForeColor = Color.Black;
             comboBox25.FormattingEnabled = true;
-            comboBox25.Items.AddRange(new object[] { "tgag", "ajjja", "kajjaj" });
             comboBox25.Location = new Point(74, 579);
             comboBox25.Name = "comboBox25";
             comboBox25.Size = new Size(179, 39);
