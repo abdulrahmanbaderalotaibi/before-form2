@@ -355,6 +355,7 @@ namespace Without_Coach
             textBox12.Name = "textBox12";
             textBox12.Size = new Size(134, 32);
             textBox12.TabIndex = 46;
+            textBox12.Text = "          8-10";
             // 
             // textBox11
             // 
@@ -364,6 +365,7 @@ namespace Without_Coach
             textBox11.Name = "textBox11";
             textBox11.Size = new Size(134, 32);
             textBox11.TabIndex = 45;
+            textBox11.Text = "          4-6";
             // 
             // textBox10
             // 
@@ -373,6 +375,7 @@ namespace Without_Coach
             textBox10.Name = "textBox10";
             textBox10.Size = new Size(134, 32);
             textBox10.TabIndex = 44;
+            textBox10.Text = "          4-6";
             // 
             // textBox9
             // 
@@ -382,6 +385,7 @@ namespace Without_Coach
             textBox9.Name = "textBox9";
             textBox9.Size = new Size(134, 32);
             textBox9.TabIndex = 43;
+            textBox9.Text = "          4-6";
             // 
             // textBox8
             // 
@@ -391,6 +395,7 @@ namespace Without_Coach
             textBox8.Name = "textBox8";
             textBox8.Size = new Size(134, 32);
             textBox8.TabIndex = 42;
+            textBox8.Text = "          8-10";
             // 
             // textBox7
             // 
@@ -400,6 +405,7 @@ namespace Without_Coach
             textBox7.Name = "textBox7";
             textBox7.Size = new Size(134, 32);
             textBox7.TabIndex = 41;
+            textBox7.Text = "          4-6";
             // 
             // textBox6
             // 
@@ -409,6 +415,7 @@ namespace Without_Coach
             textBox6.Name = "textBox6";
             textBox6.Size = new Size(134, 32);
             textBox6.TabIndex = 40;
+            textBox6.Text = "          4-6";
             // 
             // textBox5
             // 
@@ -418,6 +425,7 @@ namespace Without_Coach
             textBox5.Name = "textBox5";
             textBox5.Size = new Size(134, 32);
             textBox5.TabIndex = 39;
+            textBox5.Text = "          4-6";
             // 
             // textBox4
             // 
@@ -427,6 +435,7 @@ namespace Without_Coach
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(134, 32);
             textBox4.TabIndex = 38;
+            textBox4.Text = "         8-10";
             // 
             // textBox3
             // 
@@ -436,6 +445,7 @@ namespace Without_Coach
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(134, 32);
             textBox3.TabIndex = 37;
+            textBox3.Text = "          4-6";
             // 
             // textBox2
             // 
@@ -445,6 +455,7 @@ namespace Without_Coach
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(134, 32);
             textBox2.TabIndex = 36;
+            textBox2.Text = "          4-6";
             // 
             // textBox1
             // 
@@ -454,6 +465,7 @@ namespace Without_Coach
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(134, 32);
             textBox1.TabIndex = 35;
+            textBox1.Text = "          4-6    ";
             // 
             // label23
             // 
@@ -614,6 +626,7 @@ namespace Without_Coach
             comboBox15.Name = "comboBox15";
             comboBox15.Size = new Size(179, 39);
             comboBox15.TabIndex = 22;
+            comboBox15.Text = "Standing Military Press";
             // 
             // comboBox16
             // 
@@ -628,6 +641,7 @@ namespace Without_Coach
             comboBox16.Name = "comboBox16";
             comboBox16.Size = new Size(179, 36);
             comboBox16.TabIndex = 21;
+            comboBox16.Text = "Close-Grip Bench Press";
             // 
             // comboBox17
             // 
@@ -642,6 +656,7 @@ namespace Without_Coach
             comboBox17.Name = "comboBox17";
             comboBox17.Size = new Size(179, 36);
             comboBox17.TabIndex = 20;
+            comboBox17.Text = "Barbell Bench Press";
             // 
             // comboBox18
             // 
@@ -656,6 +671,7 @@ namespace Without_Coach
             comboBox18.Name = "comboBox18";
             comboBox18.Size = new Size(179, 39);
             comboBox18.TabIndex = 19;
+            comboBox18.Text = "Barbell Row";
             // 
             // comboBox19
             // 
@@ -670,6 +686,7 @@ namespace Without_Coach
             comboBox19.Name = "comboBox19";
             comboBox19.Size = new Size(179, 36);
             comboBox19.TabIndex = 18;
+            comboBox19.Text = "Barbell Deadlift";
             // 
             // comboBox20
             // 
@@ -684,6 +701,7 @@ namespace Without_Coach
             comboBox20.Name = "comboBox20";
             comboBox20.Size = new Size(179, 36);
             comboBox20.TabIndex = 17;
+            comboBox20.Text = "Dumbbell Lateral Raise";
             // 
             // comboBox4
             // 
@@ -698,6 +716,7 @@ namespace Without_Coach
             comboBox4.Name = "comboBox4";
             comboBox4.Size = new Size(179, 39);
             comboBox4.TabIndex = 16;
+            comboBox4.Text = "Barbell Back Squat ";
             // 
             // comboBox5
             // 
@@ -712,6 +731,7 @@ namespace Without_Coach
             comboBox5.Name = "comboBox5";
             comboBox5.Size = new Size(179, 36);
             comboBox5.TabIndex = 15;
+            comboBox5.Text = "One-Arm Dumbbell Row";
             // 
             // comboBox6
             // 
@@ -726,6 +746,7 @@ namespace Without_Coach
             comboBox6.Name = "comboBox6";
             comboBox6.Size = new Size(179, 36);
             comboBox6.TabIndex = 14;
+            comboBox6.Text = "Chin-up (Weighted)";
             // 
             // comboBox8
             // 
@@ -740,6 +761,7 @@ namespace Without_Coach
             comboBox8.Name = "comboBox8";
             comboBox8.Size = new Size(179, 39);
             comboBox8.TabIndex = 12;
+            comboBox8.Text = "Standing Calf Raise";
             // 
             // comboBox9
             // 
@@ -754,6 +776,7 @@ namespace Without_Coach
             comboBox9.Name = "comboBox9";
             comboBox9.Size = new Size(179, 36);
             comboBox9.TabIndex = 11;
+            comboBox9.Text = "Bulgarian Split Squat";
             // 
             // comboBox14
             // 
@@ -768,6 +791,7 @@ namespace Without_Coach
             comboBox14.Name = "comboBox14";
             comboBox14.Size = new Size(179, 36);
             comboBox14.TabIndex = 10;
+            comboBox14.Text = "Barbell Front Squat ";
             // 
             // pictureBox3
             // 
