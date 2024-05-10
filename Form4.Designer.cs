@@ -84,6 +84,7 @@
             comboBox33 = new ComboBox();
             comboBox35 = new ComboBox();
             comboBox36 = new ComboBox();
+            pictureBox2 = new PictureBox();
             textBox13 = new TextBox();
             textBox14 = new TextBox();
             textBox15 = new TextBox();
@@ -133,12 +134,11 @@
             comboBox9 = new ComboBox();
             comboBox14 = new ComboBox();
             pictureBox3 = new PictureBox();
-            pictureBox2 = new PictureBox();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             SuspendLayout();
             // 
             // panel1
@@ -850,6 +850,16 @@
             comboBox36.Size = new Size(179, 36);
             comboBox36.TabIndex = 60;
             // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(-4, 503);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(811, 484);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 59;
+            pictureBox2.TabStop = false;
+            // 
             // textBox13
             // 
             textBox13.BackColor = Color.LightGray;
@@ -1249,7 +1259,6 @@
             comboBox17.Font = new Font("Segoe UI", 12F);
             comboBox17.ForeColor = Color.Black;
             comboBox17.FormattingEnabled = true;
-            comboBox17.Items.AddRange(new object[] { "tgag", "ajjja", "kajjaj" });
             comboBox17.Location = new Point(74, 63);
             comboBox17.Name = "comboBox17";
             comboBox17.Size = new Size(179, 36);
@@ -1391,16 +1400,6 @@
             pictureBox3.TabIndex = 0;
             pictureBox3.TabStop = false;
             // 
-            // pictureBox2
-            // 
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(-4, 503);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(811, 484);
-            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox2.TabIndex = 59;
-            pictureBox2.TabStop = false;
-            // 
             // Form4
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -1416,8 +1415,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ResumeLayout(false);
         }
 
