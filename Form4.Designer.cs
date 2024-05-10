@@ -883,16 +883,6 @@
             pictureBox2.TabIndex = 59;
             pictureBox2.TabStop = false;
             // 
-            // pictureBox2
-            // 
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(-4, 503);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(811, 484);
-            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox2.TabIndex = 59;
-            pictureBox2.TabStop = false;
-            // 
             // textBox13
             // 
             textBox13.BackColor = Color.LightGray;
@@ -1119,7 +1109,6 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(134, 32);
             textBox1.TabIndex = 35;
-            textBox1.Text = "          4-6";
             // 
             // label23
             // 
