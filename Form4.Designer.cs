@@ -570,6 +570,7 @@
             textBox25.Name = "textBox25";
             textBox25.Size = new Size(134, 32);
             textBox25.TabIndex = 97;
+            textBox25.Text = "         10-15";
             // 
             // textBox26
             // 
@@ -579,6 +580,7 @@
             textBox26.Name = "textBox26";
             textBox26.Size = new Size(134, 32);
             textBox26.TabIndex = 96;
+            textBox26.Text = "          8-15";
             // 
             // textBox27
             // 
@@ -588,6 +590,7 @@
             textBox27.Name = "textBox27";
             textBox27.Size = new Size(134, 32);
             textBox27.TabIndex = 95;
+            textBox27.Text = "          6-10";
             // 
             // textBox28
             // 
@@ -597,6 +600,7 @@
             textBox28.Name = "textBox28";
             textBox28.Size = new Size(134, 32);
             textBox28.TabIndex = 94;
+            textBox28.Text = "          6-10";
             // 
             // textBox29
             // 
@@ -606,6 +610,7 @@
             textBox29.Name = "textBox29";
             textBox29.Size = new Size(134, 32);
             textBox29.TabIndex = 93;
+            textBox29.Text = "         10-15";
             // 
             // textBox30
             // 
@@ -615,6 +620,7 @@
             textBox30.Name = "textBox30";
             textBox30.Size = new Size(134, 32);
             textBox30.TabIndex = 92;
+            textBox30.Text = "         10-15";
             // 
             // textBox31
             // 
@@ -624,6 +630,7 @@
             textBox31.Name = "textBox31";
             textBox31.Size = new Size(134, 32);
             textBox31.TabIndex = 91;
+            textBox31.Text = "          6-12";
             // 
             // textBox32
             // 
@@ -633,6 +640,7 @@
             textBox32.Name = "textBox32";
             textBox32.Size = new Size(134, 32);
             textBox32.TabIndex = 90;
+            textBox32.Text = "          6-12";
             // 
             // textBox33
             // 
@@ -642,6 +650,7 @@
             textBox33.Name = "textBox33";
             textBox33.Size = new Size(134, 32);
             textBox33.TabIndex = 89;
+            textBox33.Text = "         12-15";
             // 
             // textBox34
             // 
@@ -651,6 +660,7 @@
             textBox34.Name = "textBox34";
             textBox34.Size = new Size(134, 32);
             textBox34.TabIndex = 88;
+            textBox34.Text = "         8-12";
             // 
             // textBox35
             // 
@@ -660,6 +670,7 @@
             textBox35.Name = "textBox35";
             textBox35.Size = new Size(134, 32);
             textBox35.TabIndex = 87;
+            textBox35.Text = "         8-12";
             // 
             // textBox36
             // 
@@ -669,6 +680,7 @@
             textBox36.Name = "textBox36";
             textBox36.Size = new Size(134, 32);
             textBox36.TabIndex = 86;
+            textBox36.Text = "          6-8";
             // 
             // label24
             // 
@@ -695,6 +707,7 @@
             comboBox2.Name = "comboBox2";
             comboBox2.Size = new Size(179, 43);
             comboBox2.TabIndex = 73;
+            comboBox2.Text = "Glute Ham Raise";
             // 
             // comboBox1
             // 
@@ -709,6 +722,7 @@
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(179, 36);
             comboBox1.TabIndex = 72;
+            comboBox1.Text = "Bulgarian Split Squat";
             // 
             // comboBox25
             // 
@@ -722,6 +736,7 @@
             comboBox25.Name = "comboBox25";
             comboBox25.Size = new Size(179, 39);
             comboBox25.TabIndex = 71;
+            comboBox25.Text = "Seated Shoulder Press";
             // 
             // comboBox26
             // 
@@ -736,6 +751,7 @@
             comboBox26.Name = "comboBox26";
             comboBox26.Size = new Size(179, 36);
             comboBox26.TabIndex = 70;
+            comboBox26.Text = "Incline Dumbbell Press";
             // 
             // comboBox27
             // 
@@ -750,6 +766,7 @@
             comboBox27.Name = "comboBox27";
             comboBox27.Size = new Size(179, 43);
             comboBox27.TabIndex = 69;
+            comboBox27.Text = "Bench Press";
             // 
             // comboBox28
             // 
@@ -764,6 +781,7 @@
             comboBox28.Name = "comboBox28";
             comboBox28.Size = new Size(179, 46);
             comboBox28.TabIndex = 68;
+            comboBox28.Text = "Pull Up";
             // 
             // comboBox29
             // 
@@ -778,6 +796,7 @@
             comboBox29.Name = "comboBox29";
             comboBox29.Size = new Size(179, 43);
             comboBox29.TabIndex = 67;
+            comboBox29.Text = "Lateral  Raises";
             // 
             // comboBox31
             // 
@@ -792,6 +811,7 @@
             comboBox31.Name = "comboBox31";
             comboBox31.Size = new Size(179, 39);
             comboBox31.TabIndex = 65;
+            comboBox31.Text = "Dumbbell Row";
             // 
             // comboBox32
             // 
@@ -806,6 +826,7 @@
             comboBox32.Name = "comboBox32";
             comboBox32.Size = new Size(179, 39);
             comboBox32.TabIndex = 64;
+            comboBox32.Text = "Seated Cable Row";
             // 
             // comboBox33
             // 
@@ -820,6 +841,7 @@
             comboBox33.Name = "comboBox33";
             comboBox33.Size = new Size(179, 36);
             comboBox33.TabIndex = 63;
+            comboBox33.Text = "Barbell Bent Over Row";
             // 
             // comboBox35
             // 
@@ -834,6 +856,7 @@
             comboBox35.Name = "comboBox35";
             comboBox35.Size = new Size(179, 39);
             comboBox35.TabIndex = 61;
+            comboBox35.Text = "Romanian Deadlift";
             // 
             // comboBox36
             // 
@@ -848,6 +871,17 @@
             comboBox36.Name = "comboBox36";
             comboBox36.Size = new Size(179, 36);
             comboBox36.TabIndex = 60;
+            comboBox36.Text = "Squat";
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(-4, 503);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(811, 484);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 59;
+            pictureBox2.TabStop = false;
             // 
             // pictureBox2
             // 
@@ -975,6 +1009,7 @@
             textBox12.Name = "textBox12";
             textBox12.Size = new Size(134, 32);
             textBox12.TabIndex = 46;
+            textBox12.Text = "          8-10";
             // 
             // textBox11
             // 
@@ -984,6 +1019,7 @@
             textBox11.Name = "textBox11";
             textBox11.Size = new Size(134, 32);
             textBox11.TabIndex = 45;
+            textBox11.Text = "           4-6";
             // 
             // textBox10
             // 
@@ -993,6 +1029,7 @@
             textBox10.Name = "textBox10";
             textBox10.Size = new Size(134, 32);
             textBox10.TabIndex = 44;
+            textBox10.Text = "          4-6";
             // 
             // textBox9
             // 
@@ -1002,6 +1039,7 @@
             textBox9.Name = "textBox9";
             textBox9.Size = new Size(134, 32);
             textBox9.TabIndex = 43;
+            textBox9.Text = "          4-6";
             // 
             // textBox8
             // 
@@ -1011,6 +1049,7 @@
             textBox8.Name = "textBox8";
             textBox8.Size = new Size(134, 32);
             textBox8.TabIndex = 42;
+            textBox8.Text = "         8-10";
             // 
             // textBox7
             // 
@@ -1020,6 +1059,7 @@
             textBox7.Name = "textBox7";
             textBox7.Size = new Size(134, 32);
             textBox7.TabIndex = 41;
+            textBox7.Text = "          4-6";
             // 
             // textBox6
             // 
@@ -1029,6 +1069,7 @@
             textBox6.Name = "textBox6";
             textBox6.Size = new Size(134, 32);
             textBox6.TabIndex = 40;
+            textBox6.Text = "          4-6";
             // 
             // textBox5
             // 
@@ -1038,6 +1079,7 @@
             textBox5.Name = "textBox5";
             textBox5.Size = new Size(134, 32);
             textBox5.TabIndex = 39;
+            textBox5.Text = "          4-6";
             // 
             // textBox4
             // 
@@ -1047,6 +1089,7 @@
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(134, 32);
             textBox4.TabIndex = 38;
+            textBox4.Text = "          8-10";
             // 
             // textBox3
             // 
@@ -1056,6 +1099,7 @@
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(134, 32);
             textBox3.TabIndex = 37;
+            textBox3.Text = "          4-6";
             // 
             // textBox2
             // 
@@ -1065,6 +1109,7 @@
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(134, 32);
             textBox2.TabIndex = 36;
+            textBox2.Text = "          4-6";
             // 
             // textBox1
             // 
@@ -1074,6 +1119,7 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(134, 32);
             textBox1.TabIndex = 35;
+            textBox1.Text = "          4-6";
             // 
             // label23
             // 
@@ -1235,6 +1281,7 @@
             comboBox15.Name = "comboBox15";
             comboBox15.Size = new Size(179, 39);
             comboBox15.TabIndex = 22;
+            comboBox15.Text = "Standing Military Press";
             // 
             // comboBox16
             // 
@@ -1249,6 +1296,7 @@
             comboBox16.Name = "comboBox16";
             comboBox16.Size = new Size(179, 36);
             comboBox16.TabIndex = 21;
+            comboBox16.Text = "Close-Grip Bench Press";
             // 
             // comboBox17
             // 
@@ -1262,6 +1310,7 @@
             comboBox17.Name = "comboBox17";
             comboBox17.Size = new Size(179, 36);
             comboBox17.TabIndex = 20;
+            comboBox17.Text = "Barbell Bench Press";
             // 
             // comboBox18
             // 
@@ -1276,6 +1325,7 @@
             comboBox18.Name = "comboBox18";
             comboBox18.Size = new Size(179, 39);
             comboBox18.TabIndex = 19;
+            comboBox18.Text = "Barbell Row";
             // 
             // comboBox19
             // 
@@ -1290,6 +1340,7 @@
             comboBox19.Name = "comboBox19";
             comboBox19.Size = new Size(179, 36);
             comboBox19.TabIndex = 18;
+            comboBox19.Text = "Barbell Deadlift ";
             // 
             // comboBox20
             // 
@@ -1304,6 +1355,7 @@
             comboBox20.Name = "comboBox20";
             comboBox20.Size = new Size(179, 36);
             comboBox20.TabIndex = 17;
+            comboBox20.Text = "Dumbbell Lateral Raise ";
             // 
             // comboBox4
             // 
@@ -1318,6 +1370,7 @@
             comboBox4.Name = "comboBox4";
             comboBox4.Size = new Size(179, 39);
             comboBox4.TabIndex = 16;
+            comboBox4.Text = "Barbell Back Squat";
             // 
             // comboBox5
             // 
@@ -1332,6 +1385,7 @@
             comboBox5.Name = "comboBox5";
             comboBox5.Size = new Size(179, 36);
             comboBox5.TabIndex = 15;
+            comboBox5.Text = "One-Arm Dumbbell Row";
             // 
             // comboBox6
             // 
@@ -1346,6 +1400,7 @@
             comboBox6.Name = "comboBox6";
             comboBox6.Size = new Size(179, 36);
             comboBox6.TabIndex = 14;
+            comboBox6.Text = "Chin-up(Weighted)";
             // 
             // comboBox8
             // 
@@ -1360,6 +1415,7 @@
             comboBox8.Name = "comboBox8";
             comboBox8.Size = new Size(179, 39);
             comboBox8.TabIndex = 12;
+            comboBox8.Text = "Standing Calf Raise";
             // 
             // comboBox9
             // 
@@ -1374,6 +1430,7 @@
             comboBox9.Name = "comboBox9";
             comboBox9.Size = new Size(179, 36);
             comboBox9.TabIndex = 11;
+            comboBox9.Text = "Bulgarian Split Squat ";
             // 
             // comboBox14
             // 
@@ -1388,6 +1445,7 @@
             comboBox14.Name = "comboBox14";
             comboBox14.Size = new Size(179, 36);
             comboBox14.TabIndex = 10;
+            comboBox14.Text = "Barbell Front Squat ";
             // 
             // pictureBox3
             // 
