@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             panel1 = new Panel();
             label2 = new Label();
             label1 = new Label();
@@ -42,7 +41,6 @@
             pictureBox3 = new PictureBox();
             label3 = new Label();
             Login = new Button();
-            button3 = new Button();
             panel2 = new Panel();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -141,13 +139,15 @@
             // 
             // pictureBox2
             // 
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.BackgroundImage = Properties.Resources.Account;
+            pictureBox2.Image = Properties.Resources.Account;
             pictureBox2.Location = new Point(-3, 0);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(69, 55);
+            pictureBox2.Size = new Size(66, 45);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 3;
             pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox2_Click;
             // 
             // panel4
             // 
@@ -173,13 +173,16 @@
             // 
             // pictureBox3
             // 
-            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(3, 3);
+            pictureBox3.Image = Properties.Resources._lock;
+            pictureBox3.Location = new Point(-3, 0);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(60, 39);
+            pictureBox3.Size = new Size(66, 45);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 4;
             pictureBox3.TabStop = false;
+            pictureBox3.Click += pictureBox3_Click;
+            pictureBox3.MouseDown += pictureBox3_MouseDown;
+            pictureBox3.MouseUp += pictureBox3_MouseUp;
             // 
             // label3
             // 
@@ -198,7 +201,7 @@
             // 
             Login.BackColor = Color.Linen;
             Login.Font = new Font("Century Gothic", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Login.Location = new Point(6, 310);
+            Login.Location = new Point(36, 310);
             Login.Name = "Login";
             Login.Size = new Size(125, 44);
             Login.TabIndex = 4;
@@ -206,21 +209,9 @@
             Login.UseVisualStyleBackColor = false;
             Login.Click += button2_Click;
             // 
-            // button3
-            // 
-            button3.BackColor = Color.Linen;
-            button3.Font = new Font("Century Gothic", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button3.Location = new Point(179, 310);
-            button3.Name = "button3";
-            button3.Size = new Size(174, 44);
-            button3.TabIndex = 5;
-            button3.Text = "Forget passowrd";
-            button3.UseVisualStyleBackColor = false;
-            // 
             // panel2
             // 
             panel2.BackColor = Color.LightGray;
-            panel2.Controls.Add(button3);
             panel2.Controls.Add(Login);
             panel2.Controls.Add(label3);
             panel2.Controls.Add(panel4);
@@ -277,7 +268,6 @@
         private PictureBox pictureBox3;
         private Label label3;
         private Button Login;
-        private Button button3;
         private Panel panel2;
     }
 }
