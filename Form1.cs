@@ -96,5 +96,27 @@ namespace Without_Coach
                 Login.Focus();
             }
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_MouseUp(object sender, MouseEventArgs e)
+        {
+            textpassowrd.UseSystemPasswordChar = true;
+
+        }
+
+        private void pictureBox3_MouseDown(object sender, MouseEventArgs e)
+        {
+            textpassowrd.UseSystemPasswordChar = false;
+
+        }
     }
 }
